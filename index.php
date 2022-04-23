@@ -31,9 +31,46 @@
 
   <style>
     #more {display: none;}
+    #more2 {display: none;}
+    .card {
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+        margin: 28px;
+        color:white;
+        background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../siteimg/counts-bg.png") center center no-repeat;
+    }
+    .column {
+        float: left;
+        width: 70.0%;
+        margin-bottom: 0px;
+        padding: 0 8px;
+        background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../siteimg/counts-bg.png") center center no-repeat;
+    }
+    html {
+       box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    .containerr::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../siteimg/counts-bg.png") center center no-repeat;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 10%;
+            display: block;
+        }
+    }
+
+
   </style>
 </head>
 <body>
+
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center justify-content-between">
@@ -42,17 +79,16 @@
         
         <nav id="navbar" class="navbar">
             <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li class="dropdown"><a class="nav-link scrollto" href="#about"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+            <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+            <li class="dropdown"><a class="nav-link scrollto" href="#about"><span>ABOUT US</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                <li><a href="#about">National ICT Policy</a></li>
-                <li><a href="#about">ICT Commision</a></li>
                 <li><a href="#about">Vision</a></li>
                 <li><a href="#about">Mission</a></li>
-                <li><a href="#about">Strategic Plan</a></li>
+                <li><a href="#about">Board Members</a></li>
+                <li><a href="#about">Management</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="#"><span>ICT Investiment</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a href="#"><span>ICT INVESTMENT</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                 <li><a href="#">Startup Companies</a></li>
                 <li><a href="#">Digital Incubatots</a></li>
@@ -60,7 +96,7 @@
                 </ul>
             </li>
             <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
-            <li class="dropdown"><a href="#professional"><span>ICT Professional</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a href="#professional"><span>ICT PROFESSIONAL</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                 <li><a href="#professional">About</a></li>
                 <li><a href="https://iprs.ictc.go.tz/index.php/login" target="blank">Registration</a></li>
@@ -68,7 +104,7 @@
                 <li><a href="#professional">Fees</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="#"><span>ICT Reserach</span> <i class="bi bi-chevron-right"></i></a>
+            <li class="dropdown"><a href="#"><span>ICT RESEARCH</span> <i class="bi bi-chevron-right"></i></a>
                 <!-- <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Guids</a></li>
@@ -78,14 +114,20 @@
                 <li><a href="#">FAQs</a></li>
                 </ul> -->
             </li>
-            <li class="dropdown"><a href="#"><span>ICT Events</span><i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a href="#"><span>PARTNERS</span><i class="bi bi-chevron-down"></i></a>
                 <ul>  
-                <li><a target="blank" href="https://taic.ictc.go.tz/">TAIC</a></li>
-                <li><a target="blank" href="https://www.youthdigitalsummit.org/">Tanzania Youth Digital Summit (TYDS2020)</a></li>
+                <li><a target="blank" href="https://www.uncdf.org/">UNCDF</a></li>
+                <li><a target="blank" href="https://www.dotrust.org/">DOT</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>ICT EVENTS</span><i class="bi bi-chevron-down"></i></a>
+                <ul>  
+                <li><a target="blank" href="https://taic.ictc.go.tz/">TAIC2022</a></li>
+                <!-- <li><a target="blank" href="https://www.youthdigitalsummit.org/">Tanzania Youth Digital Summit (TYDS2020)</a></li> -->
                 </ul>
             </li>
             <!-- <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li> -->
-            <li><a class="nav-link scrollto" href="#contact">Contacts</a></li>
+            <li><a class="nav-link scrollto" href="#contact">CONTACTS</a></li>
             <li><a class="getstarted" href="https://softcenter.ictc.go.tz/" target="blank">Softcenter - Digital Incubation Portal</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -99,11 +141,35 @@
             <div class="row justify-content-center">
                 <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                 <h1>We lead inclusive Knowledge and Information Society.</h1>
-                <h2>We register ICT Professionals and support Startups.</h2>
-                <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
+                <h2>We promote ICT Investiment, Digital Skills Development, Research and Innovation in ICT.</h2>
+                <div><a href="#about" class="btn-get-started scrollto">Welcome</a></div>
                 </div>
                 <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-                <img src="ssiteimg/ictart.png" class="img-fluid animated" alt="">
+                    <div class="row">
+                        <div class="column">
+                            <div class="card">
+                                <img src="siteimg/dg.jpg" class="img-fluid animated" alt="Jane" style="width:100%">
+                                <div class="containerr">
+                                    <div style="text-align:center">
+                                        <h2 style="font-weight:bold">NKUNDWE MOSES MWASAGA</h2>
+                                        <p style="font-weight:bold" class="title">DIRECTOR GENERAL</p>
+                                    </div>
+                                    <h6 style="padding:10px;">Welcome to the ICT Commission!</h6>
+                                    <p style="text-align: justify;padding:10px;">The Information and Communication Technologies Commission (ICTC) is an ICT
+                                        promotion body established by the Presidential Decree Government Notice (GN)
+                                        No.532 published in the Government Gazette No. 4 Vol. 96 of  <span id="dots2">...</span><span id="more2">November 2015.
+                                        The key mandates of the ICT Commission as per establishment is to promote and
+                                        foster investment and development of ICT industry, advise and collaborate with
+                                        other stakeholders on ICT research and foresight on ICT trends, and building
+                                        capacity of ICT Professionals in Tanzania.
+                                        </span><button class="read-more2" onclick="myFunction2()" id="myBtn2">Read more</button></p>
+                                    
+                                    <!-- <p><button class="button">Contact</button></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img src="ssiteimg/dg.jpg" class="img-fluid animated" alt=""> -->
                 </div>
             </div>
         </div>
@@ -121,7 +187,19 @@
             <div class="row">
             <!-- Tabs navs -->
             <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
-                <li class="nav-item" role="presentation">
+                <!-- <li class="nav-item" role="presentation">
+                    <a
+                        class="nav-link active"
+                        id="ex1-tab-0"
+                        data-mdb-toggle="tab"
+                        href="#ex1-tabs-0"
+                        role="tab"
+                        aria-controls="ex1-tabs-0"
+                        aria-selected="true"
+                        >Director General</a
+                    >
+                </li> -->
+                <!-- <li class="nav-item" role="presentation">
                 <a
                     class="nav-link active"
                     id="ex1-tab-1"
@@ -144,7 +222,7 @@
                     aria-selected="false"
                     >ICT Commission</a
                 >
-                </li>
+                </li> -->
                 <li class="nav-item" role="presentation">
                 <a
                     class="nav-link"
@@ -169,7 +247,7 @@
                     >Mission</a
                 >
                 </li>
-                <li class="nav-item" role="presentation">
+                <!-- <li class="nav-item" role="presentation">
                 <a
                     class="nav-link"
                     id="ex1-tab-5"
@@ -179,13 +257,13 @@
                     aria-controls="ex1-tabs-5"
                     aria-selected="false"
                     >Strategic Plan</a>
-                </li>
+                </li> -->
             </ul>
             <!-- Tabs navs -->
 
             <!-- Tabs content -->
             <div class="tab-content" id="ex1-content">
-                <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+                <!-- <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
                 <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" id="ict-commision" data-aos="fade-right">
                     <h3>National ICT Policy</h3>
                     <p class="fst-italic">
@@ -196,7 +274,6 @@
                     <li><i class="bi bi-check-circle"></i> Click <a href="{{ asset('sitedocuments/national-ict-policy-proofed-final-nic-review-2.pdf') }}" target="blank">Here</a> to Download the National ICT Policy Document</li>
                     <li><i class="bi bi-check-circle"></i> Click <a href="{{ asset('sitedocuments/NATIONAL ICT POLICY IMPLEMENATION STRATEGY.pdf') }}" target="blank">Here</a> to Download the NATIONAL ICT POLICY IMPLEMENATION STRATEGY</li>
                     </ul>
-                    <!-- <a href="#" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a> -->
                 </div>
                 </div>
                 <div class="row tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
@@ -210,10 +287,9 @@
                     <li><i class="bi bi-check-circle"></i> Genesis of the Information and Communication Technology (ICT) Commission is the National ICT Policy 2003 approved by the Government in March 2003 that directed to establish a body in the institutional framework of the sector to coordinate and facilitate policy implementation in the country.</li>
                     <li><i class="bi bi-check-circle"></i> The current National ICT Policy approved by the Government in May 2016 also mandates the ICT Commission a role of coordinating and facilitating implementation of national ICT initiatives countrywide. This will be done through promoting the ICT sector, recognizing and build capacity and skills of ICT Professionals, providing foresight and trends in ICT through research in collaboration with ICT stakeholders and, foster strategic investment in ICT.</li>
                     </ul>
-                    <!-- <a href="#" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a> -->
                 </div>
-                </div>
-                <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                </div> -->
+                <div class="tab-pane fade show active" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
                 <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" id="ict-commision" data-aos="fade-right">
                     <h3>Vision</h3>
                     <p class="fst-italic">
@@ -264,22 +340,27 @@
 
             <div class="row counters">
 
-            <div class="col-lg-3 col-6 text-center">
+            <div class="col-lg-3 col-2 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="855" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Registered ICT Practitioners</p>
+            </div>
+
+            <div class="col-lg-3 col-2 text-center">
                 <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Developers</p>
             </div>
 
-            <div class="col-lg-3 col-6 text-center">
+            <div class="col-lg-3 col-2 text-center">
                 <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Incubators</p>
             </div>
 
-            <div class="col-lg-3 col-6 text-center">
+            <div class="col-lg-3 col-2 text-center">
                 <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Startups</p>
             </div>
 
-            <div class="col-lg-3 col-6 text-center">
+            <div class="col-lg-3 col-2 text-center">
                 <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Accelerators</p>
             </div>
@@ -1055,6 +1136,21 @@
         var dots = document.getElementById("dots");
         var moreText = document.getElementById("more");
         var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+        }
+    }
+    function myFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
 
         if (dots.style.display === "none") {
             dots.style.display = "inline";
