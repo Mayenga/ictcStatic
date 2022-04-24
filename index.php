@@ -73,6 +73,34 @@
   </style>
 </head>
 <body>
+<!-- top middle -->
+<!-- <div class="col-md-12 mt-0 top-middle" >
+    <div class="container px-0">
+        <div class="row ">
+            <div class="col-md-2 col-sm-2 col-xs-2 float-left text-left my-auto">
+                <a href="https://www.tcra.go.tz">
+                    <img src="https://www.tcra.go.tz/site/images/emblem.png" alt="Tanzania emblem" class="mx-auto img-fluid" style="width:80px;"></a>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8 text-center text-xs-center px-xs-0 my-auto">
+                <h6 class="mb-1 title align-items-center">
+                    JAMHURI YA MUUNGANO WA TANZANIA
+                </h6>
+                <h2 class="mb-1 title title-main align-items-center">
+                    MAMLAKA YA MAWASILIANO TANZANIA
+                </h2>
+                <h6 class="mb-1 title align-items-center">
+                    TAASISI YENYE VIWANGO VYA ISO 9001: 2015
+                </h6>
+            </div>
+
+            <div class="col-md-2 col-sm-2 col-xs-2 float-right text-right my-auto">
+                <a href="https://www.tcra.go.tz"><img src="https://www.tcra.go.tz/site/images/logo.png" alt="" class="mx-auto img-fluid" style="width:93px;"></a>
+            </div>
+
+        </div>
+    </div>
+</div> -->
+<!-- /top middle -->
 <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center justify-content-between">
         <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a>
@@ -138,7 +166,7 @@
         <div class="container-fluid" data-aos="fade-up">
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h1>LEAD TO INCLUSIVE KNOWLEDGE AND INFORMATION SOCIETY.</h1>
+                    <h1>LEAD TOWARDS INCLUSIVE KNOWLEDGE AND INFORMATION SOCIETY.</h1>
                     <h2>We promote ICT Investment, Digital Skills Development, Research and Innovation in ICT.</h2>
                     <div><a href="#about" class="btn-get-started scrollto">Welcome</a></div>
                 </div>
@@ -820,7 +848,7 @@
                 <div class="info-box  mb-4">
                 <i class="bx bx-phone-call"></i>
                 <h3>Call Us</h3>
-                <p>+255 7381 71742</p>
+                <p>+255 7368 48444</p>
                 </div>
             </div>
 
@@ -877,7 +905,7 @@
                     14 Jamhuri St <br>
                     Dar es Salaam<br>
                     Tanzania<br><br>
-                    <strong>Phone:</strong> +255 7381 71742<br>
+                    <strong>Phone:</strong> +255 7368 48444<br>
                     <strong>Email:</strong> info@ictc.go.tz/ dg@ictc.go.tz<br>
                     </p>
                 </div>
