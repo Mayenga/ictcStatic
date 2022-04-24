@@ -74,36 +74,33 @@
 </head>
 <body>
 <!-- top middle -->
-<!-- <div class="col-md-12 mt-0 top-middle" >
-    <div class="container px-0">
-        <div class="row ">
-            <div class="col-md-2 col-sm-2 col-xs-2 float-left text-left my-auto">
-                <a href="https://www.tcra.go.tz">
-                    <img src="https://www.tcra.go.tz/site/images/emblem.png" alt="Tanzania emblem" class="mx-auto img-fluid" style="width:80px;"></a>
+<div class="col-md-12 mt-0 top-middle">
+    <div class="container-fluid px-0">
+        <div class="row" style="padding:15px">
+            <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2 text-left my-auto" style="align-self: center;text-align: center;">
+                <a href="https://www.ictc.go.tz">
+                    <img src="siteimg/fevicon.png" alt="Tanzania emblem" class="mx-auto img-fluid" style="max-width:100px;width: 100%;height: auto;"></a>
             </div>
-            <div class="col-md-8 col-sm-8 col-xs-8 text-center text-xs-center px-xs-0 my-auto">
-                <h6 class="mb-1 title align-items-center">
-                    JAMHURI YA MUUNGANO WA TANZANIA
-                </h6>
-                <h2 class="mb-1 title title-main align-items-center">
-                    MAMLAKA YA MAWASILIANO TANZANIA
-                </h2>
-                <h6 class="mb-1 title align-items-center">
-                    TAASISI YENYE VIWANGO VYA ISO 9001: 2015
-                </h6>
+            <div class="col-md-8 col-sm-8 col-xs-8 col-lg-8 text-center text-xs-center px-xs-0 my-auto"style="">
+                <h4 class="mb-1 title align-items-center"  style="font-size:2vw;font-weight:bold">
+                    THE UNITED REPUBLIC OF TANZANIA
+                </h4>
+                <h1 class="mb-1 title title-main align-items-center" style="font-size:2vw;font-weight:bold">
+                    INFORMATION AND COMMUNICATION TECHNOLOGY COMMISSION
+                </h1>
             </div>
 
-            <div class="col-md-2 col-sm-2 col-xs-2 float-right text-right my-auto">
-                <a href="https://www.tcra.go.tz"><img src="https://www.tcra.go.tz/site/images/logo.png" alt="" class="mx-auto img-fluid" style="width:93px;"></a>
+            <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2 text-right my-auto"style="align-self: center;text-align: center;">
+                <a href="https://www.ictc.go.tz"><img src="siteimg/LOGO-02.png"  alt="" class="mx-auto img-fluid" style="width:190px;height:170px;width: 100%;height: auto;"></a>
             </div>
 
         </div>
     </div>
-</div> -->
+</div>
 <!-- /top middle -->
-<header id="header" class="fixed-top ">
+<header id="header" class="fixed-top" style="top: 0rem;position: sticky;background-color: #5846f9;">
         <div class="container d-flex align-items-center justify-content-between">
-        <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a>
+        <!-- <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a> -->
         <nav id="navbar" class="navbar">
             <ul>
             <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
@@ -153,7 +150,7 @@
                 <!-- <li><a target="blank" href="https://www.youthdigitalsummit.org/">Tanzania Youth Digital Summit (TYDS2020)</a></li> -->
                 </ul>
             </li>
-            <!-- <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li> -->
+            <li><a class="nav-link scrollto" href="#portfolio">GALLERY</a></li>
             <li><a class="nav-link scrollto" href="#contact">CONTACTS</a></li>
             <li><a class="getstarted" href="https://softcenter.ictc.go.tz/" target="blank">Softcenter - Digital Incubation Portal</a></li>
             </ul>
@@ -165,16 +162,18 @@
     <section id="hero" class="d-flex align-items-center">
         <div class="container-fluid" data-aos="fade-up">
             <div class="row justify-content-center">
-                <div class="col-xl-4 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h1>LEAD TOWARDS INCLUSIVE KNOWLEDGE AND INFORMATION SOCIETY.</h1>
+                <div style="" class="col-xl-4 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <!-- <h1>LEAD TOWARDS INCLUSIVE KNOWLEDGE AND INFORMATION SOCIETY.</h1> -->
+                    <h1>TO BE A DYNAMIC WORD CLASS DIGITAL MODEL IN PROMOTING AN ICT-ENABLED KNOWLEDGE SOCIETY.</h1>
                     <h2>We promote ICT Investment, Digital Skills Development, Research and Innovation in ICT.</h2>
                     <div><a href="#about" class="btn-get-started scrollto">Welcome</a></div>
                 </div>
-                <div class="col-xl-5 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-                    <div class="roww">
-                        <div class="column col-6">
+                <!-- <div class="col-xl-7 col-lg-0 order-1 order-lg-2 hero-img"><div> -->
+                <div style="" class="col-xl-5 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="row">
+                        <div class="column">
                             <div class="card">
-                                <img src="siteimg/dg.jpg" class="img-fluid animated" alt="Jane" style="width:100%">
+                                <img src="siteimg/dg.jpg" class="img-fluid animated" alt="Jane" style="width:100%;height:auto">
                                 <div class="containerr">
                                     <div style="text-align:center">
                                         <h2 style="font-weight:bold">NKUNDWE MOSES MWASAGA</h2>
@@ -199,7 +198,11 @@
             </div>
         </div>
     </section><!-- End Hero -->
-
+    
+    <div style="position: fixed;bottom: 0;right: 0;width: 300px;">
+        <img src="siteimg/SENSA.png" class="img-fluid animated" alt="" style="width:120px;height:150px;width:100%;height:auto">
+    </div>
+    
     <main id="main">
 
         <!-- ======= About Section ======= -->
