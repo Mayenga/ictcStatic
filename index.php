@@ -28,6 +28,7 @@
 
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <style>
     #more {display: none;}
@@ -36,47 +37,45 @@
         /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
         margin: 28px;
         color:white;
-        background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../siteimg/counts-bg.png") center center no-repeat;
+        background: url("../siteimg/counts-bg.png") center center no-repeat;
+        /* linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), */
     }
     .column {
-        float: left;
+        /* float: left; */
         width: 70.0%;
-        margin-bottom: 0px;
-        padding: 0 8px;
-        background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../siteimg/counts-bg.png") center center no-repeat;
+        /* margin-bottom: 0px; */
+        /* padding: 0 8px; */
+        /* background: url("../siteimg/counts-bg.png") center center no-repeat; */
     }
     html {
-       box-sizing: border-box;
+       /* box-sizing: border-box; */
     }
 
     *, *:before, *:after {
-        box-sizing: inherit;
+        /* box-sizing: inherit; */
     }
-    .containerr::after, .row::after {
-        content: "";
-        clear: both;
-        display: table;
-        background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../siteimg/counts-bg.png") center center no-repeat;
+    .containerr::after, .roww::after {
+        /* content: "";
+        clear: both; */
+        /* display: table; */
+        /* background: url("../siteimg/counts-bg.png") center center no-repeat; */
     }
 
     @media screen and (max-width: 650px) {
         .column {
-            width: 10%;
+            width: 100%;
             display: block;
         }
     }
-
+    .w3-btn {margin-bottom:10px;}
+    
 
   </style>
 </head>
 <body>
-
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top ">
+<header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center justify-content-between">
-        <!-- <h1 class="logo"><a href="index.html">ICT Commision</a></h1> -->
-        <a href="/" class="logo"><img src="siteimg/logo2.png" alt="ICTC LOGO" class="img-fluid"></a>
-        
+        <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a>
         <nav id="navbar" class="navbar">
             <ul>
             <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
@@ -95,7 +94,6 @@
                 <li><a href="#">Digital Accelerators</a></li>
                 </ul>
             </li>
-            <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
             <li class="dropdown"><a href="#professional"><span>ICT PROFESSIONAL</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                 <li><a href="#professional">About</a></li>
@@ -116,8 +114,9 @@
             </li>
             <li class="dropdown"><a href="#"><span>PARTNERS</span><i class="bi bi-chevron-down"></i></a>
                 <ul>  
-                <li><a target="blank" href="https://www.uncdf.org/">UNCDF</a></li>
-                <li><a target="blank" href="https://www.dotrust.org/">DOT</a></li>
+                    <li><a target="blank" href="https://www.uncdf.org/">UNCDF</a></li>
+                    <li><a target="blank" href="https://www.dotrust.org/">DOT</a></li>
+                    <li><a target="blank" href="https://teknolojia.co.tz/">TEKNOKONA</a></li>
                 </ul>
             </li>
             <li class="dropdown"><a href="#"><span>ICT EVENTS</span><i class="bi bi-chevron-down"></i></a>
@@ -135,18 +134,17 @@
 
         </div>
     </header>
-
     <section id="hero" class="d-flex align-items-center">
         <div class="container-fluid" data-aos="fade-up">
             <div class="row justify-content-center">
-                <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                <h1>We lead inclusive Knowledge and Information Society.</h1>
-                <h2>We promote ICT Investiment, Digital Skills Development, Research and Innovation in ICT.</h2>
-                <div><a href="#about" class="btn-get-started scrollto">Welcome</a></div>
+                <div class="col-xl-4 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1>LEAD TO INCLUSIVE KNOWLEDGE AND INFORMATION SOCIETY.</h1>
+                    <h2>We promote ICT Investment, Digital Skills Development, Research and Innovation in ICT.</h2>
+                    <div><a href="#about" class="btn-get-started scrollto">Welcome</a></div>
                 </div>
-                <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-                    <div class="row">
-                        <div class="column">
+                <div class="col-xl-5 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="roww">
+                        <div class="column col-6">
                             <div class="card">
                                 <img src="siteimg/dg.jpg" class="img-fluid animated" alt="Jane" style="width:100%">
                                 <div class="containerr">
@@ -162,14 +160,13 @@
                                         foster investment and development of ICT industry, advise and collaborate with
                                         other stakeholders on ICT research and foresight on ICT trends, and building
                                         capacity of ICT Professionals in Tanzania.
-                                        </span><button class="read-more2" onclick="myFunction2()" id="myBtn2">Read more</button></p>
-                                    
-                                    <!-- <p><button class="button">Contact</button></p> -->
+                                        </span><button onclick="myFunction2()" id="myBtn2" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read more</button></p>
+                                
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <img src="ssiteimg/dg.jpg" class="img-fluid animated" alt=""> -->
+                    <!-- <img src="siteimg/dg.jpg" class="img-fluid animated" alt=""> -->
                 </div>
             </div>
         </div>
@@ -340,30 +337,30 @@
 
             <div class="row counters">
 
-            <div class="col-lg-3 col-2 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="855" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Registered ICT Practitioners</p>
-            </div>
+                <div class="col-xm-12 col-sm-6 col-lg-2 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="855" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Registered ICT Practitioners</p>
+                </div>
 
-            <div class="col-lg-3 col-2 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Developers</p>
-            </div>
+                <div class="col-xm-12 col-sm-6 col-lg-2 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Developers</p>
+                </div>
 
-            <div class="col-lg-3 col-2 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Incubators</p>
-            </div>
+                <div class="col-xm-12 col-sm-6 col-lg-2 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Incubators</p>
+                </div>
 
-            <div class="col-lg-3 col-2 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Startups</p>
-            </div>
+                <div class="col-xm-12 col-sm-6 col-lg-2 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Startups</p>
+                </div>
 
-            <div class="col-lg-3 col-2 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Accelerators</p>
-            </div>
+                <div class="col-xm-12 col-sm-6 col-lg-2 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Accelerators</p>
+                </div>
 
             </div>
 
@@ -459,7 +456,7 @@
                     <li>Temporary ICT Consultants<br>The applicant must provide-<br>Provide proof of registration/practice as an ICT Consultant from the country of origin or proof of ability to perform Level 4 responsibilities as stipulated in the guiding registration framework;<br>Two letters of referees (At least one must be a Tanzanian registered as an ICT Consultant to prove competence in a specified professional area of ICT practice;<br>Copy of residence permit or VISA; and Original or certified copies of academic certificates translated in English (should be certified by relevant body from applicant’s home country).</li>
                     <li>Temporary ICT Professionals <br>The applicant must provide: -<br>Proof of registration by an ICT Professional body from the country of origin or proof of ability to perform Level 3 responsibilities as stipulated in the guiding registration framework;<br>Three letters of referees (two must be Tanzanians registered as ICT Professionals/ICT Consultants) endorsing competency of applicant in a specified professional area of ICT practice);<br>Copy of residence permit or VISA; and Original or certified copies of academic certificates translated in English (should be certified by relevant body from applicant’s home country).</li>
                     </ul>
-                    </span><button class="read-more" onclick="myFunction()" id="myBtn">Read more</button>
+                    </span><button onclick="myFunction()" id="myBtn" class="read-more w3-btn w3-white w3-border w3-border-red w3-round-large">Details</button>
                 </div>
                 </div>
                 <div class="row tab-pane fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2">
@@ -472,154 +469,79 @@
                 </div>
                 <div class="tab-pane fade" id="ex2-tabs-3" role="tabpanel" aria-labelledby="ex2-tab-3">
                 <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" id="ict-commision" data-aos="fade-right">
-                    <h3>ICT COMMISSION TRAINING PLAN JUNE 2021 – JULY 2022</h3>
+                    <h3>ICT COMMISSION TRAINING PLAN FROM APRIL 2022 TO JULY 2022</h3>
                     <table>
-                    <tr>
-                        <th>No</th>
-                        <th>Course Name</th>
-                        <th>Course Dates</th>
-                        <th>Status</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Certified Cyber Security Specialist</td>
-                        <td>July 2021</td>
-                        <td>Closed</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Cloud Computing and Management</td>
-                        <td>August 2021</td>
-                        <td>Closed</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Big Data Analytics (Associate)</td>
-                        <td>September 2021</td>
-                        <td>Closed</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Tanzania Annual ICT Conference 2021</td>
-                        <td>October 2021</td>
-                        <td>Closed</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Blockchain Technology and Applications</td>
-                        <td>December 2021</td>
-                        <td>Postponed</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Data Analysis for Business Management and Governance</td>
-                        <td>December 2021</td>
-                        <td>Closed</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Certified Network Defender (CND)</td>
-                        <td>17th - 21ndJanuary,2022 DAR ES SALAAM</td>
-                        <td>Registration Ongoing</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Data Analysis for Business Management and Governance</td>
-                        <td>31st January– 4th February,2022 DODOMA</td>
-                        <td>Registration Ongoing</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Information Technology Infrastructure Library (ITIL) Certification</td>
-                        <td>14th -18thFebruary,2022 MOROGORO</td>
-                        <td>Registration Ongoing</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Cisco Certified Network Administration(CCNA)</td>
-                        <td>21st -25thFebruary,2022 DAR ES SALAAM</td>
-                        <td>Registration Ongoing</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>Certified Fiber Optic Network Specialist-Home</td>
-                        <td>28thFebruar-18th  March, 2022 DAR ES SALAAM</td>
-                        <td>Registration Ongoing</td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <td>Oracle Database Administration</td>
-                        <td>07th - 17th  March, 2022 DAR ES SALAAM</td>
-                        <td>Registration Ongoing</td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>Mobile Applications  Development </td>
-                        <td>21st - 25th  March, 2022 DAR ES SALAAM</td>
-                        <td>Registration Ongoing</td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>Big Data Analytics (Beginners)</td>
-                        <td>28th March  - 01st April , 2022 BAGAMOYO</td>
-                        <td>Registration Ongoing</td>
-                    </tr>
-                    <tr>
-                        <td>15</td>
-                        <td>ICT Project Management</td>
-                        <td>April 2022</td>
-                        <td>Open</td>
-                    </tr>
-                    <tr>
-                        <td>16</td>
-                        <td>Management of ICT Innovation</td>
-                        <td>April 2022</td>
-                        <td>Open</td>
-                    </tr>
-                    <tr>
-                        <td>17</td>
-                        <td>Cisco Certified Network Administration(CCNA)</td>
-                        <td>April 2022</td>
-                        <td>Open</td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
-                        <td>Blockchain Technology and Applications.</td>
-                        <td>April 2022</td>
-                        <td>Open</td>
-                        <!-- Data Analysis for Business Management and Governance -->
-                    </tr>
-                    <tr>
-                        <td>19</td>
-                        <td>Certified Ethical Hacker (CEH)</td>
-                        <td>May 2022</td>
-                        <td>Open</td>
-                    </tr>
-                    <tr>
-                        <td>20</td>
-                        <td>Certified Information Security Manager (CISM)</td>
-                        <td>May 2022</td>
-                        <td>Open</td>
-                    </tr>
-                    <tr>
-                        <td>21</td>
-                        <td>Digital Transformation for ICT  and Non ICT Managers</td>
-                        <td>May 2022</td>
-                        <td>Open</td>
-                    </tr>
-                    <tr>
-                        <td>22</td>
-                        <td>Certified Cloud Computing Architect</td>
-                        <td>June 2022</td>
-                        <td>Open</td>
-                    </tr>
-                    <tr>
-                        <td>23</td>
-                        <td>Certified Data Centre Management</td>
-                        <td>June 2022</td>
-                        <td>Open</td>
-                    </tr>
+                        <tr style="padding:15px;">
+                            <th style="padding:15px;">No</th>
+                            <th style="padding:15px;">Course Name</th>
+                            <th style="padding:15px;">Course Dates</th>
+                            <th style="padding:15px;">Training Costs</th>
+                            <th style="padding:15px;">Package</th>
+                        </tr>
+                        <tr style="border:1px solid wheat;padding:15px;">
+                            <td style="padding:15px;">1</td>
+                            <td style="padding:15px;">ICT Project Management</td>
+                            <td style="padding:15px;">19<sup>th</sup> - 23<sup>rd</sup> April 2022, Dar es Salaam</td>
+                            <td style="padding:15px;">Registered ICT Professionals: TZS 800,000 <br /> Non Registered and other participants TZS 950,000</td>
+                            <td style="padding:15px;">X</td>
+                        </tr>
+                        <tr style="border:1px solid wheat;padding:15px;">
+                            <td style="padding:15px;">2</td>
+                            <td style="padding:15px;">Mobile Applications Development</td>
+                            <td style="padding:15px;">09<sup>th</sup> - 13<sup>th</sup> May 2022, Dar es Salaam</td>
+                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,400,000 <br /> Non Registered and other participants TZS 1,600,000</td>
+                            <td style="padding:15px;">X</td>
+                        </tr>
+                        <tr style="border:1px solid wheat;padding:15px;">
+                            <td style="padding:15px;">3</td>
+                            <td style="padding:15px;">Digital Marketing</td>
+                            <td style="padding:15px;">16<sup>th</sup> - 20<sup>th</sup> May 2022, Dar es Salaam</td>
+                            <td style="padding:15px;">Registered ICT Professionals: TZS 900,000 <br /> Non Registered and other participants TZS 950,000</td>
+                            <td style="padding:15px;">X</td>
+                        </tr>
+                        <tr style="border:1px solid wheat;padding:15px;">
+                            <td style="padding:15px;">4</td>
+                            <td style="padding:15px;">Oracle Database Administration</td>
+                            <td style="padding:15px;">30<sup>th</sup> May - 10<sup>th</sup> June 2022, Dar es Salaam</td>
+                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,500,000 <br /> Non Registered and other participants TZS 1,800,000</td>
+                            <td style="padding:15px;">X</td>
+                        </tr>
+                        <tr style="border:1px solid wheat;padding:15px;">
+                            <td style="padding:15px;">5</td>
+                            <td style="padding:15px;">Data analysis for Business Management and Governance</td>
+                            <td style="padding:15px;">30<sup>th</sup> May - 03<sup>th</sup> June 2022, Dar es Salaam</td>
+                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,200,000 <br /> Non Registered and other participants TZS 1,300,000</td>
+                            <td style="padding:15px;">X</td>
+                        </tr>
+                        <tr style="border:1px solid wheat;padding:15px;">
+                            <td style="padding:15px;">6</td>
+                            <td style="padding:15px;">Certified Ethical Hacker(CEH)</td>
+                            <td style="padding:15px;">20<sup>th</sup> - 24<sup>th</sup> June 2022, Dar es Salaam</td>
+                            <td style="padding:15px;">Registered ICT Professionals: TZS 2,000,000 <br /> Non Registered and other participants TZS 2,200,000</td>
+                            <td style="padding:15px;">XX</td>
+                        </tr>
+                        <tr style="border:1px solid wheat;padding:15px;">
+                            <td style="padding:15px;">7</td>
+                            <td style="padding:15px;">Cyber Security Specialist</td>
+                            <td style="padding:15px;">27<sup>th</sup> June - 01<sup>st</sup> July 2022, Dar es Salaam</td>
+                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,300,000 <br /> Non Registered and other participants TZS 1,500,000<br /><b>Certification Exam fee: USD 550 for all participants </b></td>
+                            <td style="padding:15px;">X</td>
+                        </tr>
+                        <tr style="border:1px solid wheat;padding:15px;">
+                            <td style="padding:15px;">8</td>
+                            <td style="padding:15px;">Cisco Certified Network Professional (CCNP)</td>
+                            <td style="padding:15px;">11<sup>th</sup> - 22<sup>nd</sup> July 2022, Dar es Salaam</td>
+                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,700,000 <br /> Non Registered and other participants TZS 1,850,000</td>
+                            <td style="padding:15px;">XX</td>
+                        </tr>
                     </table>
+                    <p>
+                    <h6>Description:</h6>
+                    <ol>
+                    <li><b>Package XX - </b> The training covers training fee, refreshments (breckfast and lunch) during training period, training materials and certification exams costs.</li>
+                    <li><b>Package X - </b> The training covers training fee, refreshments (breckfast and lunch) during training period, training materials.</li>
+                    </ol>
+                    </p>
                     <h5>FOR INQUIRIES PLEASE CONTACT US ON  info@ictc.go.tz</h5>
                 </div>
                 </div>
@@ -711,148 +633,42 @@
         </div>
         </section><!-- End Professional Section -->
 
-        <!-- ======= Portfolio Section ======= 
-        <section id="portfolio" class="portfolio">-->
-            <!-- <div class="container" data-aos="fade-up">
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                <h2>Gallery</h2>
+                    <h2>Gallery</h2>
                 </div>
 
                 <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">TAIC2021</li>
-                    <li data-filter=".filter-card">Cyber Security Training</li>
-                    <li data-filter=".filter-web">University Seminer At IFM</li>
-                    </ul>
-                </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">TAIC2021</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="row portfolio-container">
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Taic 2021</h4>
-                        <p>Director General</p>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                        <img src="siteimg/gallery/taic/taic1.jpeg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Taic 2022</h4>
+                            <p>Call For Papers</p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="siteimg/gallery/taic/taic1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Call For Papers"><i class="bx bx-plus"></i></a>
+                        </div>
+                        </div>
                     </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>University Seminer</h4>
-                        <p>TIA</p>
-                    </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Taic 2021</h4>
-                        <p>AICC</p>
-                    </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Cyber Security Training</h4>
-                        <p>Card</p>
-                    </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>University Seminer</h4>
-                        <p></p>
-                    </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Taic 2021</h4>
-                        <p></p>
-                    </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Cyber Security Training</h4>
-                        <p>Card</p>
-                    </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Cyber Security Training</h4>
-                        <p></p>
-                    </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                    <img src="{{ asset('siteimg/gallery/g.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>University Seminer</h4>
-                        <p>Web</p>
-                    </div>
-                    <div class="portfolio-links">
-                        <a href="{{ asset('siteimg/gallery/g.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    </div>
-                    </div>
-                </div>
 
                 </div>
 
-            </div> -->
-        <!--</section> End Portfolio Section -->
+            </div>
+        </section><!--  End Portfolio Section -->
 
         <!-- ======= Testimonials Section ======= -->
         <!-- <section id="testimonials" class="testimonials section-bg">
@@ -996,7 +812,7 @@
                 <div class="info-box  mb-4">
                 <i class="bx bx-envelope"></i>
                 <h3>Email Us</h3>
-                <p>info@ictc.go.tz</p>
+                <p>info@ictc.go.tz/<br/>dg@ictc.go.tz</p>
                 </div>
             </div>
 
@@ -1062,7 +878,7 @@
                     Dar es Salaam<br>
                     Tanzania<br><br>
                     <strong>Phone:</strong> +255 7381 71742<br>
-                    <strong>Email:</strong> info@ictc.go.tz<br>
+                    <strong>Email:</strong> info@ictc.go.tz/ dg@ictc.go.tz<br>
                     </p>
                 </div>
 
@@ -1162,6 +978,22 @@
             moreText.style.display = "inline";
         }
     }
+    document.addEventListener("DOMContentLoaded", function(){
+		
+		window.addEventListener('scroll', function() {
+	       
+			if (window.scrollY > 200) {
+				document.getElementById('navbar_top').classList.add('fixed-top');
+				// add padding top to show content behind navbar
+				navbar_height = document.querySelector('.navbar').offsetHeight;
+				document.body.style.paddingTop = navbar_height + 'px';
+			} else {
+			 	document.getElementById('navbar_top').classList.remove('fixed-top');
+				 // remove padding top from body
+				document.body.style.paddingTop = '0';
+			} 
+		});
+	}); 
   </script>
 </body>
 
