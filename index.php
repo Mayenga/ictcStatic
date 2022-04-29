@@ -29,20 +29,17 @@
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
   <style>
     #more {display: none;}
     #more2 {display: none;}
-    .card {
-        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-        margin: 28px;
-        color:white;
-        background: url("../siteimg/counts-bg.png") center center no-repeat;
-        /* linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), */
+    .cardi {
+        color:black;
+        text-align:center;
     }
     .column {
-        /* float: left; */
-        width: 70.0%;
+        /* float: right; */
+        width: 100.0%;
+        height: auto;
         /* margin-bottom: 0px; */
         /* padding: 0 8px; */
         /* background: url("../siteimg/counts-bg.png") center center no-repeat; */
@@ -68,37 +65,95 @@
         }
     }
     .w3-btn {margin-bottom:10px;}
-    
+/*     
+    @media screen and (min-width: 400px) {
+        #ngao {
+            max-width:100px;
+            width: 100%;
+            height: auto;
+        }
+    }
 
+    @media screen and (min-width: 800px) {
+        #ngao {
+            max-width:150px;
+            width: 100%;
+            height: auto;
+        }
+    } */
+    #ngao {
+        max-width:85px;
+        width: 100%;
+        height: auto;
+    }
+
+    /*<!-- modal  -->
+    /* The Modal (background) */
+    .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
   </style>
 </head>
 <body>
 <!-- top middle -->
-<div class="col-md-12 mt-0 top-middle">
-    <div class="container-fluid px-0">
-        <div class="row" style="padding:15px">
-            <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2 text-left my-auto" style="align-self: center;text-align: center;">
-                <a href="https://www.ictc.go.tz">
-                    <img src="siteimg/fevicon.png" alt="Tanzania emblem" class="mx-auto img-fluid" style="max-width:100px;width: 100%;height: auto;"></a>
-            </div>
-            <div class="col-md-8 col-sm-8 col-xs-8 col-lg-8 text-center text-xs-center px-xs-0 my-auto"style="">
-                <h4 class="mb-1 title align-items-center"  style="font-size:2vw;font-weight:bold">
-                    THE UNITED REPUBLIC OF TANZANIA
-                </h4>
-                <h1 class="mb-1 title title-main align-items-center" style="font-size:2vw;font-weight:bold">
-                    INFORMATION AND COMMUNICATION TECHNOLOGY COMMISSION
-                </h1>
-            </div>
-
-            <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2 text-right my-auto"style="align-self: center;text-align: center;">
-                <a href="https://www.ictc.go.tz"><img src="siteimg/LOGO-02.png"  alt="" class="mx-auto img-fluid" style="width:190px;height:170px;width: 100%;height: auto;"></a>
-            </div>
-
+<div class="container-fluid" style="background-color:rgb(41, 219, 250);background-image: url(ssiteimg/back.jpg);background-repeat: no-repeat;width: 100%;background-position: center ;text-align:center;margin:auto;padding:0;background-size: cover;">
+<div class="container px-0 mt-0" style="">
+    <div class="row" style="padding:5px">
+        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-left my-auto" style="align-self: center;text-align: center;">
+            <a href="https://www.ictc.go.tz">
+                <img id="ngao" src="siteimg/fevicon.png" alt="Tanzania emblem" class="mx-auto img-fluid"></a>
+        </div>
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-center text-xs-center px-xs-0 mx-auto my-auto">
+            <h4 class="mb-1 title align-items-center" style="font-size:2vw;color:white;font-weight:bold;">
+                THE UNITED REPUBLIC OF TANZANIA
+            </h4>
+            <h1 class="mb-1 title title-main align-items-center" style="font-size:1vw;color:white;font-weight:bold;">
+                INFORMATION AND COMMUNICATION TECHNOLOGY COMMISSION
+            </h1>
+        </div>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-right my-auto"style="align-self: center;text-align: center;">
+            <a href="https://www.ictc.go.tz"><img src="siteimg/LOGO-02.png"  alt="" class="mx-auto img-fluid"></a>
+            <!-- style="max-width:100px;height:170px;width: 100%;height: auto;" -->
         </div>
     </div>
 </div>
+</div>
 <!-- /top middle -->
-<header id="header" class="fixed-top" style="top: 0rem;position: sticky;background-color: #5846f9;">
+<header id="header" class="fixed-top" style="top: 0rem;position: sticky;background-color: rgba(41, 219, 250, 0.329);">
         <div class="container d-flex align-items-center justify-content-between">
         <!-- <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a> -->
         <nav id="navbar" class="navbar">
@@ -152,57 +207,155 @@
             </li>
             <li><a class="nav-link scrollto" href="#portfolio">GALLERY</a></li>
             <li><a class="nav-link scrollto" href="#contact">CONTACTS</a></li>
-            <li><a class="getstarted" href="https://softcenter.ictc.go.tz/" target="blank">Softcenter - Digital Incubation Portal</a></li>
+            <li><a class="nav-link scrollto getstarted" href="https://softcenter.ictc.go.tz/" target="blank">Softcenter</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
         </div>
     </header>
-    <section id="hero" class="d-flex align-items-center">
+
+    <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">TO BE A DYNAMIC WORD CLASS DIGITAL MODEL IN PROMOTING AN ICT-ENABLED KNOWLEDGE SOCIETY.</h2>
+          <p class="animate__animated animate__fadeInUp">We promote ICT Investment, Digital Skills Development, Research and Innovation in ICT.</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Welcome</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <!-- <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+          <p class="animate__animated animate__fadeInUp">To lead inclusive Knowledge and Information Society and contribute to national economic growth in Tanzania by providing technical and policy advice in cutting edge issues for sector development and strategic investment, promoting secure ICT deployment and profession recognition.</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div> -->
+    <!-- news modals starts -->
+    <!-- The Modal -->
+    <div id="myModal" class="modal col-12 col-sm-6 col-md-4 col-lg-6 col-xl-6">
+        <!-- Modal content -->
+        <div class="modal-content" >
+            <span class="close">&times;</span>
+            <h2 style="text-align:center;color:black">ZIARA YA BAROZI WA NETHERLANDS NCHINI TANZANIA KATIKA MAKAO MAKUU YA TUME YA TEHAMA.</h2>
+            <img src="siteimg/news/baloziNetherlands/1.jpg" width: 100%; height: auto;/>
+            <br>
+            <br>
+            <p style="text-align:justfy;color:black">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara katika Makao Makuu ya Tume ya TEHAMA Jijini Dsm, lengo ni kuongeza wigo katika Sekta ya Uwekezaji wa TEHAMA kati ya Tanzania na Netherlands.</p>
+        </div>
+    </div>
+    <!-- news modals ends -->
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+    <!-- <section id="hero" class="" style="border:1px solid red;">
         <div class="container-fluid" data-aos="fade-up">
-            <div class="row justify-content-center">
+        <div class="row justify-content-center">
                 <div style="" class="col-xl-4 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <!-- <h1>LEAD TOWARDS INCLUSIVE KNOWLEDGE AND INFORMATION SOCIETY.</h1> -->
                     <h1>TO BE A DYNAMIC WORD CLASS DIGITAL MODEL IN PROMOTING AN ICT-ENABLED KNOWLEDGE SOCIETY.</h1>
                     <h2>We promote ICT Investment, Digital Skills Development, Research and Innovation in ICT.</h2>
                     <div><a href="#about" class="btn-get-started scrollto">Welcome</a></div>
                 </div>
-                <!-- <div class="col-xl-7 col-lg-0 order-1 order-lg-2 hero-img"><div> -->
                 <div style="" class="col-xl-5 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-                    <div class="row">
-                        <div class="column">
-                            <div class="card">
-                                <img src="siteimg/dg.jpg" class="img-fluid animated" alt="Jane" style="width:100%;height:auto">
-                                <div class="containerr">
-                                    <div style="text-align:center">
-                                        <h2 style="font-weight:bold">NKUNDWE MOSES MWASAGA</h2>
-                                        <p style="font-weight:bold" class="title">DIRECTOR GENERAL</p>
-                                    </div>
-                                    <h6 style="padding:10px;">Welcome to the ICT Commission!</h6>
-                                    <p style="text-align: justify;padding:10px;">The Information and Communication Technologies Commission (ICTC) is an ICT
-                                        promotion body established by the Presidential Decree Government Notice (GN)
-                                        No.532 published in the Government Gazette No. 4 Vol. 96 of  <span id="dots2">...</span><span id="more2">November 2015.
-                                        The key mandates of the ICT Commission as per establishment is to promote and
-                                        foster investment and development of ICT industry, advise and collaborate with
-                                        other stakeholders on ICT research and foresight on ICT trends, and building
-                                        capacity of ICT Professionals in Tanzania.
-                                        </span><button onclick="myFunction2()" id="myBtn2" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read more</button></p>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <img src="siteimg/dg.jpg" class="img-fluid animated" alt=""> -->
+                    <img src="siteimg/SENSA.png" class="img-fluid animated" alt="">
                 </div>
             </div>
         </div>
-    </section><!-- End Hero -->
-    
-    <div style="position: fixed;bottom: 0;right: 0;width: 300px;">
-        <img src="siteimg/SENSA.png" class="img-fluid animated" alt="" style="width:120px;height:150px;width:100%;height:auto">
+    </section>End Hero -->
+
+    <!-- ======= Hero Section ======= -->
+  <!-- <section id="hero" class="d-flex align-items-center"> -->
+    <!-- <div class="container-fluid" data-aos="fade-up">
+    <div class="row justify-content-center">
+        <div class="col-xl-12 col-lg-12 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1>TO BE A DYNAMIC WORD CLASS DIGITAL MODEL IN PROMOTING AN ICT-ENABLED KNOWLEDGE SOCIETY.</h1>
+            <h2>We promote ICT Investment, Digital Skills Development, Research and Innovation in ICT.</h2>
+            <div><a href="#about" class="btn-get-started scrollto">Welcome</a></div>
+        </div>
     </div>
+    </div> -->
+
+<!-- </section> -->
+<!-- End Hero -->
     
+    <div style="position: fixed;bottom: 10%;right: 0;width: 300px;text-align:center">
+        <img src="siteimg/SENSA.png" class="img-fluid animated" alt="" style="max-height:150    px;max-width:150px;width:100%;height:auto">
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div style="padding:10px; background-color:rgba(209, 183, 38, 0.061)" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" data-aos-delay="150">
+                <div class="cardi">
+                    <div class=""><img src="siteimg/dg.jpg" style="" alt="" width="136" height="165" /><br />
+                        <h6 style="color:green;font-weight:bold">NKUNDWE MOSES MWASAGA</h6>
+                        <h6 style="color:blue" class="directorgeneral">Director General</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="padding:20px; background-color:rgba(209, 183, 38, 0.205)">
+                <h4 style="text-align:center; font-size:bold;color:rgb(103, 121, 5);font-weight:bold;font-size:25px"><a href="" hreflang="en" class="dg-conner"> Welcome to the ICT Commission!</a></h4>
+                <p style="text-align: justify;padding:10px;">The Information and Communication Technologies Commission (ICTC) is an ICT
+                                    promotion body established by the Presidential Decree Government Notice (GN)
+                                    No.532 published in the Government Gazette No. 4 Vol. 96 of  <span id="dots2">...</span><span id="more2">November 2015.
+                                    The key mandates of the ICT Commission as per establishment is to promote and
+                                    foster investment and development of ICT industry, advise and collaborate with
+                                    other stakeholders on ICT research and foresight on ICT trends, and building
+                                    capacity of ICT Professionals in Tanzania.
+                                    </span><button onclick="myFunction2()" id="myBtn2" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read more</button></p>             
+            </div>
+            <div style="background-color:rgba(209, 183, 38, 0.061)" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="moduletablenewsslider">
+					<h3 style="text-align:center;padding:10px;color:rgb(103, 121, 5)">Latest News <img src="siteimg/new.gif" height="50px" width="50px" /></h3>
+					<div id="btcontentslider209" style="display:block;width:auto" class="bt-cs bt-csnewsslider">
+			            <div class="slides_container" style="width:auto;">
+			                <div class="slide" style="width:auto;">
+					            <div class="bt-row bt-row-first"  style="width:100%;margin-bottom:5px" >
+				                    <div class="bt-inner">
+									    <a target="_parent" href="#" class="bt-image-link" title="Balozi wa Netherlands Nchini Tanzania">
+					                    <img class="hovereffect"  src="siteimg/news/balozOfNethelands.jpg" alt="Ambassador of Netherlands"  style="width:65px; float:left;margin-right:5px" title="Balozi wa Netherlands Nchini Tanzania akizungumza na watumishi wa Tume ya TEHAMa..." /></a> 
+								        <a style="color:blue" class="bt-title" target="_parent" title="Balozi wa Netherlands nchini Tanzania" href="#">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara.... </a><br />
+                                        <button id="myBtn" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read full story</button>
+				                    </div>
+				                    <!--end bt-inner -->
+			                    </div>
+			                    <!--end bt-row -->
+                                <br />
+			                    <hr class="rounded" style="">
+                                <!-- <div class="bt-row "  style="width:100%;margin-bottom:5px">
+				                    <div class="bt-inner">
+									    <a target="_parent" class="bt-image-link" title="Ongoing Training Mobile AppDevelopment" href="/index.php/en/blog-en/413-uzinduzi-wa-meli-ya-mizigo-na-abiria-ya-mv-mbeya-ii">
+					                    <img class="hovereffect"  src="siteimg/ictart.png" alt="Ongoing Training Mobile AppDevelopment"  style="width:65px; float:left;margin-right:5px" title="Ongoing Training Mobile AppDevelopment" /></a> 
+										<a  style="color:blue" class="bt-title" target="_parent" title="Ongoing Training Mobile AppDevelopment" href="/index.php/en/blog-en/413-uzinduzi-wa-meli-ya-mizigo-na-abiria-ya-mv-mbeya-ii"> Ongoing Training Mobile AppDevelopment... </a><br />					
+				                    </div>
+			                    </div> -->
+			                    <!--end bt-row -->
+                                <br />
+			                    <hr class="rounded">
+                                <!-- <div class="bt-row-last"  style="width:100%;margin-bottom:5px">
+				                    <div class="bt-inner">
+									    <a target="_parent" class="bt-image-link" title="Ongoing Training Mobile AppDevelopment" href="/index.php/en/blog-en/413-uzinduzi-wa-meli-ya-mizigo-na-abiria-ya-mv-mbeya-ii">
+					                    <img class="hovereffect"  src="siteimg/LOGO-02.png" alt="Ongoing Training Mobile AppDevelopment"  style="width:65px; float:left;margin-right:5px" title="Ongoing Training Mobile AppDevelopment" /></a> 
+										<a  style="color:blue" class="bt-title" target="_parent" title="Ongoing Training Mobile AppDevelopment" href="/index.php/en/blog-en/413-uzinduzi-wa-meli-ya-mizigo-na-abiria-ya-mv-mbeya-ii"> Ongoing Training Mobile AppDevelopment... </a><br />					
+				                    </div>
+			                    </div> -->
+			                    <!--end bt-row -->
+            		        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     <main id="main">
 
         <!-- ======= About Section ======= -->
@@ -1025,6 +1178,33 @@
 			} 
 		});
 	}); 
+
+    // modal scripts 
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+    modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+    modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    }
   </script>
 </body>
 
