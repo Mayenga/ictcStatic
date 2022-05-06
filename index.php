@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +30,9 @@
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!-- code pen -->
+  <link rel="stylesheet" href="./style.css">
   <style>
     #more {display: none;}
     #more2 {display: none;}
@@ -126,11 +130,13 @@
     text-decoration: none;
     cursor: pointer;
     }
+
   </style>
+
 </head>
 <body>
 <!-- top middle -->
-<div class="container-fluid" style="background-color:rgb(41, 219, 250);background-image: url(ssiteimg/back.jpg);background-repeat: no-repeat;width: 100%;background-position: center ;text-align:center;margin:auto;padding:0;background-size: cover;">
+<div class="container-fluid" style="background-color:white;background-image: url(ssiteimg/back.jpg);background-repeat: no-repeat;width: 100%;background-position: center ;text-align:center;margin:auto;padding:0;background-size: cover;">
 <div class="container px-0 mt-0" style="">
     <div class="row" style="padding:5px">
         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-left my-auto" style="align-self: center;text-align: center;">
@@ -138,10 +144,10 @@
                 <img id="ngao" src="siteimg/fevicon.png" alt="Tanzania emblem" class="mx-auto img-fluid"></a>
         </div>
         <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-center text-xs-center px-xs-0 mx-auto my-auto">
-            <h4 class="mb-1 title align-items-center" style="font-size:2vw;color:white;font-weight:bold;">
+            <h4 class="mb-1 title align-items-center" style="font-size:1.5vw;color:black;font-weight:bold;">
                 THE UNITED REPUBLIC OF TANZANIA
             </h4>
-            <h1 class="mb-1 title title-main align-items-center" style="font-size:1vw;color:white;font-weight:bold;">
+            <h1 class="mb-1 title title-main align-items-center" style="font-size:1.7vw;color:black;font-weight:bold;">
                 INFORMATION AND COMMUNICATION TECHNOLOGY COMMISSION
             </h1>
         </div>
@@ -153,7 +159,7 @@
 </div>
 </div>
 <!-- /top middle -->
-<header id="header" class="fixed-top" style="top: 0rem;position: sticky;background-color: rgba(41, 219, 250, 0.329);">
+<header id="header" class="fixed-top" style="top: 0rem;position: sticky;background-color: rgba(41, 219, 250, 0.87);">
         <div class="container d-flex align-items-center justify-content-between">
         <!-- <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a> -->
         <nav id="navbar" class="navbar">
@@ -182,6 +188,7 @@
                 <li><a href="#professional">Fees</a></li>
                 </ul>
             </li>
+            <li><a class="nav-link scrollto" href="https://softcenter.ictc.go.tz/" target="blank">SOFTCENTER</a></li>
             <li class="dropdown"><a href="#"><span>ICT RESEARCH</span> <i class="bi bi-chevron-right"></i></a>
                 <!-- <ul>
                 <li><a href="#">About</a></li>
@@ -207,33 +214,44 @@
             </li>
             <li><a class="nav-link scrollto" href="#portfolio">GALLERY</a></li>
             <li><a class="nav-link scrollto" href="#contact">CONTACTS</a></li>
-            <li><a class="nav-link scrollto getstarted" href="https://softcenter.ictc.go.tz/" target="blank">Softcenter</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
         </div>
     </header>
-
     <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+        <dl>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Fostering investment in ICT</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Building capacity and promote the ICT professionand standards</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Advise and collaborate with other stakeholders on research, setting of standards and foresight</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Hosting and sustaining of national ICT infrastructure and programs</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Fostering investment in ICT</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Building capacity and promote the ICT professionand standards</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Advise and collaborate with other stakeholders on research, setting of standards and foresight</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Hosting and sustaining of national ICT infrastructure and programs</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Fostering investment in ICT</dd>
+            <dt>TO PROVIDE ADVICE, STRATEGIC PLANNING, IMPLEMENTATION AND INVESTMENT IN ICT INITIATIVES, AND PROVIDE FORESIGHT IN TRENDS AND OPPORTUNITIES FOR ICT UPTAKE FOR THE NATION`S</dt>
+            <dd>Building capacity and promote the ICT professionand standards</dd>
+        </dl>
       <!-- Slide 1 -->
-      <div class="carousel-item active">
+      <!-- <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">TO BE A DYNAMIC WORD CLASS DIGITAL MODEL IN PROMOTING AN ICT-ENABLED KNOWLEDGE SOCIETY.</h2>
           <p class="animate__animated animate__fadeInUp">We promote ICT Investment, Digital Skills Development, Research and Innovation in ICT.</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Welcome</a>
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <!-- <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-          <p class="animate__animated animate__fadeInUp">To lead inclusive Knowledge and Information Society and contribute to national economic growth in Tanzania by providing technical and policy advice in cutting edge issues for sector development and strategic investment, promoting secure ICT deployment and profession recognition.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div> -->
     <!-- news modals starts -->
@@ -250,13 +268,13 @@
         </div>
     </div>
     <!-- news modals ends -->
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+      <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-      </a>
+      </a> -->
 
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+      <!-- <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a>
+      </a> -->
 
     </div>
   </section><!-- End Hero -->
@@ -1131,6 +1149,7 @@
 
   <!-- Template Main JS File -->
   <script src="sitejs/main.js"></script>
+
   <script>
     function myFunction() {
         var dots = document.getElementById("dots");

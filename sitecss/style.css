@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: rgb(5, 23, 24);
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(18, 158, 251);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: #51b9ffb2;
+  background: #63b4ffb2;
   position: absolute;
   bottom: 0;
   top: 0;
