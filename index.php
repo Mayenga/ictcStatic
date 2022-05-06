@@ -317,7 +317,7 @@
             <div style="padding:10px; background-color:rgba(209, 183, 38, 0.061)" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" data-aos-delay="150">
                 <div class="cardi">
                     <div class=""><img src="siteimg/dg.jpg" style="" alt="" width="136" height="165" /><br />
-                        <h6 style="color:green;font-weight:bold">NKUNDWE MOSES MWASAGA</h6>
+                        <h6 style="color:green;font-weight:bold">Nkundwe Moses Mwasaga</h6>
                         <h6 style="color:blue" class="directorgeneral">Director General</h6>
                     </div>
                 </div>
