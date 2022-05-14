@@ -333,7 +333,7 @@
                                     capacity of ICT Professionals in Tanzania.
                                     </span><button onclick="myFunction2()" id="myBtn2" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read more</button></p>             
             </div>
-            <div style="background-color:rgba(209, 183, 38, 0.061)" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div style="background-color:white" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="moduletablenewsslider">
 					<h3 style="text-align:center;padding:10px;color:rgb(103, 121, 5)">Latest News <img src="siteimg/new.gif" height="50px" width="50px" /></h3>
 					<div id="btcontentslider209" style="display:block;width:auto" class="bt-cs bt-csnewsslider">
@@ -342,15 +342,27 @@
 					            <div class="bt-row bt-row-first"  style="width:100%;margin-bottom:5px" >
 				                    <div class="bt-inner">
 									    <a target="_parent" href="#" class="bt-image-link" title="Balozi wa Netherlands Nchini Tanzania">
-					                    <img class="hovereffect"  src="siteimg/news/balozOfNethelands.jpg" alt="Ambassador of Netherlands"  style="width:65px; float:left;margin-right:5px" title="Balozi wa Netherlands Nchini Tanzania akizungumza na watumishi wa Tume ya TEHAMa..." /></a> 
-								        <a style="color:blue" class="bt-title" target="_parent" title="Balozi wa Netherlands nchini Tanzania" href="#">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara.... </a><br />
-                                        <button id="myBtn" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read full story</button>
+					                    <!-- <img class="hovereffect"  src="siteimg/news/balozOfNethelands.jpg" alt="Ambassador of Netherlands"  style="width:65px; float:left;margin-right:5px" title="Balozi wa Netherlands Nchini Tanzania akizungumza na watumishi wa Tume ya TEHAMa..." /></a>  -->
+								        <a style="color:blue" class="bt-title" target="_parent" title="ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia" href="pages/more/estonia.php">Chairman of the board and Director General of the ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia.... </a><br />
+                                        May 9, 2022
+                                        <br />
+                                        <hr class="rounded" style="">
+                                        <a style="color:black" class="bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
+                                        April 28, 2022
+                                        <br />
+                                        <hr class="rounded" style="">
+                                        <a style="color:black" class="bt-title" target="_parent" title="Balozi wa Netherlands nchini Tanzania" href="pages/more/ziara.php">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara....</a><br />
+                                        April 14, 2022
+                                        <br />
+                                        <hr class="rounded" style="">
+                                        <a style="color:blue" class="bt-title" target="_parent" title="more stories" href="./pages/news.php">Read more stories.... </a>
+                                        <!-- <button id="myBtn" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read full story</button> -->
 				                    </div>
 				                    <!--end bt-inner -->
 			                    </div>
 			                    <!--end bt-row -->
                                 <br />
-			                    <hr class="rounded" style="">
+			                    
                                 <!-- <div class="bt-row "  style="width:100%;margin-bottom:5px">
 				                    <div class="bt-inner">
 									    <a target="_parent" class="bt-image-link" title="Ongoing Training Mobile AppDevelopment" href="/index.php/en/blog-en/413-uzinduzi-wa-meli-ya-mizigo-na-abiria-ya-mv-mbeya-ii">
@@ -359,8 +371,6 @@
 				                    </div>
 			                    </div> -->
 			                    <!--end bt-row -->
-                                <br />
-			                    <hr class="rounded">
                                 <!-- <div class="bt-row-last"  style="width:100%;margin-bottom:5px">
 				                    <div class="bt-inner">
 									    <a target="_parent" class="bt-image-link" title="Ongoing Training Mobile AppDevelopment" href="/index.php/en/blog-en/413-uzinduzi-wa-meli-ya-mizigo-na-abiria-ya-mv-mbeya-ii">
