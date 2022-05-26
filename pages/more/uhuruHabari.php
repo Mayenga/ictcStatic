@@ -163,56 +163,8 @@
         <!-- <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a> -->
         <nav id="navbar" class="navbar">
             <ul>
-            <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
-            <li class="dropdown"><a class="nav-link scrollto" href="#about"><span>ABOUT US</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                <li><a href="#about">Vision</a></li>
-                <li><a href="#about">Mission</a></li>
-                <li><a href="#about">Board Members</a></li>
-                <li><a href="#about">Management</a></li>
-                </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>ICT INVESTMENT</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                <li><a href="#">Startup Companies</a></li>
-                <li><a href="#">Digital Incubatots</a></li>
-                <li><a href="#">Digital Accelerators</a></li>
-                </ul>
-            </li>
-            <li class="dropdown"><a href="#professional"><span>ICT PROFESSIONAL</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                <li><a href="#professional">About</a></li>
-                <li><a href="https://iprs.ictc.go.tz/index.php/login" target="blank">Registration</a></li>
-                <li><a href="#professional">Trainings</a></li>
-                <li><a href="#professional">Fees</a></li>
-                </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="https://softcenter.ictc.go.tz/" target="blank">SOFTCENTER</a></li>
-            <li class="dropdown"><a href="#"><span>ICT RESEARCH</span> <i class="bi bi-chevron-right"></i></a>
-                <!-- <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Guids</a></li>
-                <li><a href="#">Pertners</a></li>
-                <li><a href="#">Proposal And Application</a></li>
-                <li><a href="#">Evaluation</a></li>
-                <li><a href="#">FAQs</a></li>
-                </ul> -->
-            </li>
-            <li class="dropdown"><a href="#"><span>PARTNERS</span><i class="bi bi-chevron-down"></i></a>
-                <ul>  
-                    <li><a target="blank" href="https://www.uncdf.org/">UNCDF</a></li>
-                    <li><a target="blank" href="https://www.dotrust.org/">DOT</a></li>
-                    <li><a target="blank" href="https://teknolojia.co.tz/">TEKNOKONA</a></li>
-                </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>ICT EVENTS</span><i class="bi bi-chevron-down"></i></a>
-                <ul>  
-                <li><a target="blank" href="https://taic.ictc.go.tz/">TAIC2022</a></li>
-                <!-- <li><a target="blank" href="https://www.youthdigitalsummit.org/">Tanzania Youth Digital Summit (TYDS2020)</a></li> -->
-                </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#portfolio">GALLERY</a></li>
-            <li><a class="nav-link scrollto" href="#contact">CONTACTS</a></li>
+            <li><a class="nav-link scrollto active" href="../../">HOME</a></li>
+            <li><a class="nav-link scrollto" href="../news.php">NEWS</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -239,7 +191,7 @@
                             <img class="card-img-top" height="100%" width="auto" src="../../siteimg/news/uhuruHabari/1.jpeg" alt="Ambassador of Netherlands">
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
-                                <p class="card-text">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani, yaliyofanyika jiji la Arusha katika viwanja vya Glan Melia hotel</p>
+                                <p class="card-text">Picha ya pamoja ya Mheshimiwa Rais wa Jamhuri ya Muungano wa Tanzania Mh Samia Suluhu Hassan akiwa na Waziri na wakurugenzi wa Wizara ya Habari, Mawasiliano na Teknolojia ya Habari siku ya maadhimisho ya Uhuru wa Habari Dunuia, yalivyofanyika Glan melia Hotel Arusha.</p>
                             </div>
                         </div>
                     </div>

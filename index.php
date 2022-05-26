@@ -314,7 +314,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div style="padding:10px; background-color:rgba(209, 183, 38, 0.061)" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" data-aos-delay="150">
+            <div style="padding:10px; background-color:white" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" data-aos-delay="150">
                 <div class="cardi">
                     <div class=""><img src="siteimg/dg.jpg" style="" alt="" width="136" height="165" /><br />
                         <h6 style="color:green;font-weight:bold">Nkundwe Moses Mwasaga</h6>
@@ -682,70 +682,74 @@
                 <div class="tab-pane fade" id="ex2-tabs-3" role="tabpanel" aria-labelledby="ex2-tab-3">
                 <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" id="ict-commision" data-aos="fade-right">
                     <h3>ICT COMMISSION TRAINING PLAN FROM APRIL 2022 TO JULY 2022</h3>
-                    <table>
-                        <tr style="padding:15px;">
-                            <th style="padding:15px;">No</th>
-                            <th style="padding:15px;">Course Name</th>
-                            <th style="padding:15px;">Course Dates</th>
-                            <th style="padding:15px;">Training Costs</th>
-                            <th style="padding:15px;">Package</th>
-                        </tr>
-                        <tr style="border:1px solid wheat;padding:15px;">
-                            <td style="padding:15px;">1</td>
-                            <td style="padding:15px;">ICT Project Management</td>
-                            <td style="padding:15px;">19<sup>th</sup> - 23<sup>rd</sup> April 2022, Dar es Salaam</td>
-                            <td style="padding:15px;">Registered ICT Professionals: TZS 800,000 <br /> Non Registered and other participants TZS 950,000</td>
-                            <td style="padding:15px;">X</td>
-                        </tr>
-                        <tr style="border:1px solid wheat;padding:15px;">
-                            <td style="padding:15px;">2</td>
-                            <td style="padding:15px;">Mobile Applications Development</td>
-                            <td style="padding:15px;">09<sup>th</sup> - 13<sup>th</sup> May 2022, Dar es Salaam</td>
-                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,400,000 <br /> Non Registered and other participants TZS 1,600,000</td>
-                            <td style="padding:15px;">X</td>
-                        </tr>
-                        <tr style="border:1px solid wheat;padding:15px;">
-                            <td style="padding:15px;">3</td>
-                            <td style="padding:15px;">Digital Marketing</td>
-                            <td style="padding:15px;">16<sup>th</sup> - 20<sup>th</sup> May 2022, Dar es Salaam</td>
-                            <td style="padding:15px;">Registered ICT Professionals: TZS 900,000 <br /> Non Registered and other participants TZS 950,000</td>
-                            <td style="padding:15px;">X</td>
-                        </tr>
-                        <tr style="border:1px solid wheat;padding:15px;">
-                            <td style="padding:15px;">4</td>
-                            <td style="padding:15px;">Oracle Database Administration</td>
-                            <td style="padding:15px;">30<sup>th</sup> May - 10<sup>th</sup> June 2022, Dar es Salaam</td>
-                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,500,000 <br /> Non Registered and other participants TZS 1,800,000</td>
-                            <td style="padding:15px;">X</td>
-                        </tr>
-                        <tr style="border:1px solid wheat;padding:15px;">
-                            <td style="padding:15px;">5</td>
-                            <td style="padding:15px;">Data analysis for Business Management and Governance</td>
-                            <td style="padding:15px;">30<sup>th</sup> May - 03<sup>th</sup> June 2022, Dar es Salaam</td>
-                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,200,000 <br /> Non Registered and other participants TZS 1,300,000</td>
-                            <td style="padding:15px;">X</td>
-                        </tr>
-                        <tr style="border:1px solid wheat;padding:15px;">
-                            <td style="padding:15px;">6</td>
-                            <td style="padding:15px;">Certified Ethical Hacker(CEH)</td>
-                            <td style="padding:15px;">20<sup>th</sup> - 24<sup>th</sup> June 2022, Dar es Salaam</td>
-                            <td style="padding:15px;">Registered ICT Professionals: TZS 2,000,000 <br /> Non Registered and other participants TZS 2,200,000</td>
-                            <td style="padding:15px;">XX</td>
-                        </tr>
-                        <tr style="border:1px solid wheat;padding:15px;">
-                            <td style="padding:15px;">7</td>
-                            <td style="padding:15px;">Cyber Security Specialist</td>
-                            <td style="padding:15px;">27<sup>th</sup> June - 01<sup>st</sup> July 2022, Dar es Salaam</td>
-                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,300,000 <br /> Non Registered and other participants TZS 1,500,000<br /><b>Certification Exam fee: USD 550 for all participants </b></td>
-                            <td style="padding:15px;">X</td>
-                        </tr>
-                        <tr style="border:1px solid wheat;padding:15px;">
-                            <td style="padding:15px;">8</td>
-                            <td style="padding:15px;">Cisco Certified Network Professional (CCNP)</td>
-                            <td style="padding:15px;">11<sup>th</sup> - 22<sup>nd</sup> July 2022, Dar es Salaam</td>
-                            <td style="padding:15px;">Registered ICT Professionals: TZS 1,700,000 <br /> Non Registered and other participants TZS 1,850,000</td>
-                            <td style="padding:15px;">XX</td>
-                        </tr>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Course Name</th>
+                                <th scope="col">Course Dates</th>
+                                <th scope="col">Training Costs</th>
+                                <th scope="col">Package</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">1</td>
+                                <td>ICT Project Management</td>
+                                <td>19<sup>th</sup> - 23<sup>rd</sup> April 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 800,000 <br /> Non Registered and other participants TZS 950,000</td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">2</td>
+                                <td>Mobile Applications Development</td>
+                                <td>09<sup>th</sup> - 13<sup>th</sup> May 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 1,400,000 <br /> Non Registered and other participants TZS 1,600,000</td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">3</td>
+                                <td>Digital Marketing</td>
+                                <td>16<sup>th</sup> - 20<sup>th</sup> May 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 900,000 <br /> Non Registered and other participants TZS 950,000</td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">4</td>
+                                <td>Oracle Database Administration</td>
+                                <td>30<sup>th</sup> May - 10<sup>th</sup> June 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 1,500,000 <br /> Non Registered and other participants TZS 1,800,000</td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">5</td>
+                                <td>Data analysis for Business Management and Governance</td>
+                                <td>30<sup>th</sup> May - 03<sup>th</sup> June 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 1,200,000 <br /> Non Registered and other participants TZS 1,300,000</td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">6</td>
+                                <td>Certified Ethical Hacker(CEH)</td>
+                                <td>20<sup>th</sup> - 24<sup>th</sup> June 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 2,000,000 <br /> Non Registered and other participants TZS 2,200,000</td>
+                                <td>XX</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">7</td>
+                                <td>Cyber Security Specialist</td>
+                                <td>27<sup>th</sup> June - 01<sup>st</sup> July 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 1,300,000 <br /> Non Registered and other participants TZS 1,500,000<br /><b>Certification Exam fee: USD 550 for all participants </b></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">8</td>
+                                <td>Cisco Certified Network Professional (CCNP)</td>
+                                <td>11<sup>th</sup> - 22<sup>nd</sup> July 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 1,700,000 <br /> Non Registered and other participants TZS 1,850,000</td>
+                                <td>XX</td>
+                            </tr>
+                        </tbody>
                     </table>
                     <p>
                     <h6>Description:</h6>
@@ -759,83 +763,87 @@
                 </div>
                 <div class="tab-pane fade" id="ex2-tabs-4" role="tabpanel" aria-labelledby="ex2-tab-4">
                 <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" id="ict-commision" data-aos="fade-right">
-                    <table>
                     <tr>
                         <th>Tanzanians</th>
                         <th>Non-Tanzanians</th>
                     </tr>
-                    <tr>
-                        <th>S/N</th>
-                        <th>Category</th>
-                        <th>Application Fee(Paid Once during Application)</th>
-                        <th>Registration Fee(Paid once during registration)</th>
-                        <th>Annual Fee(Paid Annual)</th>
-                        <th>Renewar Fee(Paid once every three years)</th>
-                        <th>professional Rubber Stamp fee(Optional Paid once on registration)</th>
-                        <th>Application Fee</th>
-                        <th>Registration Fee(Paid once during registration)</th>
-                        <th>Annual Fee(Paid every year)</th>
-                    </tr>
-                    <tr>
-                        <td>1.</td>
-                        <td>ICT CONSULTANT</td>
-                        <td>TZS 50,000</td>
-                        <td>TZS 200,000</td>
-                        <td>TZS 150,000</td>
-                        <td>TZS 100,000</td>
-                        <td>TZS 100,000</td>
-                        <td>USD 100</td>
-                        <td>USD 200</td>
-                        <td>USD 150</td>
-                    </tr>
-                    <tr>
-                        <td>2.</td>
-                        <td>ICT PROFESSIONAL</td>
-                        <td>TZS 20,000</td>
-                        <td>TZS 100,000</td>
-                        <td>TZS 75,000</td>
-                        <td>TZS 50,000</td>
-                        <td>TZS 100,00</td>
-                        <td>USD 20</td>
-                        <td>USD 100</td>
-                        <td>USD 75</td>
-                    </tr>
-                    <tr>
-                        <td>3.</td>
-                        <td>ICT GRADUATE</td>
-                        <td>TZS 20,000</td>
-                        <td>TZS 30,000</td>
-                        <td>TZS 20,000</td>
-                        <td>TZS 15,000</td>
-                        <td>N/A</td>
-                        <td>USD 20</td>
-                        <td>USD 30</td>
-                        <td>USD 20</td>
-                    </tr>
-                    <tr>
-                        <td>4.</td>
-                        <td>ICT TECHNICIAN</td>
-                        <td>TZS 20,000</td>
-                        <td>TZS 30,000</td>
-                        <td>TZS 20,000</td>
-                        <td>TZS 15,000</td>
-                        <td>N/A</td>
-                        <td>USD 20</td>
-                        <td>USD 30</td>
-                        <td>USD 15</td>
-                    </tr>
-                    <tr>
-                        <td>5.</td>
-                        <td>AFFILIATE ICT PRACTITIONER</td>
-                        <td>TZS 20,000</td>
-                        <td>TZS 30,000</td>
-                        <td>TZS 20,000</td>
-                        <td>TZS 15,000</td>
-                        <td>N/A</td>
-                        <td>USD 20</td>
-                        <td>USD 30</td>
-                        <td>USD 15</td>
-                    </tr>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">S/N</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Application Fee(Paid Once during Application)</th>
+                                <th scope="col">Registration Fee(Paid once during registration)</th>
+                                <th scope="col">Annual Fee(Paid Annual)</th>
+                                <th scope="col">Renewar Fee(Paid once every three years)</th>
+                                <th scope="col">professional Rubber Stamp fee(Optional Paid once on registration)</th>
+                                <th scope="col">Application Fee</th>
+                                <th scope="col">Registration Fee(Paid once during registration)</th>
+                                <th scope="col">Annual Fee(Paid every year)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">1.</td>
+                                <td>ICT CONSULTANT</td>
+                                <td>TZS 50,000</td>
+                                <td>TZS 200,000</td>
+                                <td>TZS 150,000</td>
+                                <td>TZS 100,000</td>
+                                <td>TZS 100,000</td>
+                                <td>USD 100</td>
+                                <td>USD 200</td>
+                                <td>USD 150</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">2.</td>
+                                <td>ICT PROFESSIONAL</td>
+                                <td>TZS 20,000</td>
+                                <td>TZS 100,000</td>
+                                <td>TZS 75,000</td>
+                                <td>TZS 50,000</td>
+                                <td>TZS 100,00</td>
+                                <td>USD 20</td>
+                                <td>USD 100</td>
+                                <td>USD 75</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">3.</td>
+                                <td>ICT GRADUATE</td>
+                                <td>TZS 20,000</td>
+                                <td>TZS 30,000</td>
+                                <td>TZS 20,000</td>
+                                <td>TZS 15,000</td>
+                                <td>N/A</td>
+                                <td>USD 20</td>
+                                <td>USD 30</td>
+                                <td>USD 20</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">4.</td>
+                                <td>ICT TECHNICIAN</td>
+                                <td>TZS 20,000</td>
+                                <td>TZS 30,000</td>
+                                <td>TZS 20,000</td>
+                                <td>TZS 15,000</td>
+                                <td>N/A</td>
+                                <td>USD 20</td>
+                                <td>USD 30</td>
+                                <td>USD 15</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">5.</td>
+                                <td>AFFILIATE ICT PRACTITIONER</td>
+                                <td>TZS 20,000</td>
+                                <td>TZS 30,000</td>
+                                <td>TZS 20,000</td>
+                                <td>TZS 15,000</td>
+                                <td>N/A</td>
+                                <td>USD 20</td>
+                                <td>USD 30</td>
+                                <td>USD 15</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 </div>
@@ -857,7 +865,7 @@
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">TAIC2021</li>
+                        <li data-filter=".filter-app">TAIC2022</li>
                         </ul>
                     </div>
                 </div>

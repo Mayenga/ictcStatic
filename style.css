@@ -22,12 +22,13 @@ dl * {
 }
 
 dt {
-  --size: 10vmin;
+  --size: 15vmin;
   bottom: 50%;
   width: 100%;
   height: auto;
   margin-bottom: 30px;
-  font-size: 30px;
+  /* font-size: 30px; */
+  /* font-size:1.5vw; */
   opacity: 0;
   transform: translateY(100%);
   animation: dt 45s cubic-bezier(0.23, 1, 0.32, 1) infinite;

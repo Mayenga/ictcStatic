@@ -247,7 +247,7 @@
                             <div class="card-body">
                                 April 28, 2022
                                 <h5 class="card-title">Kilele cha maadhimisho ya uhuru wa habari Duniani</h5>
-                                <p class="card-text">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</p>
+                                <p class="card-text">Waziri wa Wizara ya Habari Mawasiliano na Teknolojia ya Habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya Uhuru wa Habari Duniani....</p>
                                 <a href="more/uhuruHabari.php" class="btn btn-primary">Read more</a>
                             </div>
                         </div>
@@ -258,7 +258,7 @@
                             <div class="card-body">
                                 April 14, 2022
                                 <h5 class="card-title">Ziara Balozi wa Netherlands Nchini Tanzania</h5>
-                                <p class="card-text">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara....</p>
+                                <p class="card-text">Picha ya pamoja Balozi wa Nethrlans Nchini Tanzania Bw. Wiebe de Boer akiwa na Mkurugenzi Mkuu wa Tume ta TEHAMA Nchini Dr. Mkundwe Moses Mwasaga alipofanya ziara katika Makao Makuu ya Tume ya TEHAMA Jijini Dar Es Salaam, lengo ni kuongeza wigo katika Sekta ya Uwekezaji wa TEHAMA....</p>
                                 <a href="more/ziara.php" class="btn btn-primary">Read more</a>
                             </div>
                         </div>
