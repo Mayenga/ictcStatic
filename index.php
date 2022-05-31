@@ -695,59 +695,24 @@
                         <tbody>
                             <tr>
                                 <td scope="row">1</td>
-                                <td>ICT Project Management</td>
-                                <td>19<sup>th</sup> - 23<sup>rd</sup> April 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 800,000 <br /> Non Registered and other participants TZS 950,000</td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">2</td>
-                                <td>Mobile Applications Development</td>
-                                <td>09<sup>th</sup> - 13<sup>th</sup> May 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 1,400,000 <br /> Non Registered and other participants TZS 1,600,000</td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">3</td>
-                                <td>Digital Marketing</td>
-                                <td>16<sup>th</sup> - 20<sup>th</sup> May 2022, Dar es Salaam</td>
+                                <td>Data Analysis for Business Management and Governance</td>
+                                <td>13<sup>th</sup> - 17<sup>th</sup> June 2022, Dar es Salaam</td>
                                 <td>Registered ICT Professionals: TZS 900,000 <br /> Non Registered and other participants TZS 950,000</td>
                                 <td>X</td>
                             </tr>
                             <tr>
-                                <td scope="row">4</td>
-                                <td>Oracle Database Administration</td>
-                                <td>30<sup>th</sup> May - 10<sup>th</sup> June 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 1,500,000 <br /> Non Registered and other participants TZS 1,800,000</td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">5</td>
-                                <td>Data analysis for Business Management and Governance</td>
-                                <td>30<sup>th</sup> May - 03<sup>th</sup> June 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 1,200,000 <br /> Non Registered and other participants TZS 1,300,000</td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">6</td>
-                                <td>Certified Ethical Hacker(CEH)</td>
+                                <td scope="row">2</td>
+                                <td>Certified Ethical Hacker (CEH)</td>
                                 <td>20<sup>th</sup> - 24<sup>th</sup> June 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 2,000,000 <br /> Non Registered and other participants TZS 2,200,000</td>
-                                <td>XX</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">7</td>
-                                <td>Cyber Security Specialist</td>
-                                <td>27<sup>th</sup> June - 01<sup>st</sup> July 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 1,300,000 <br /> Non Registered and other participants TZS 1,500,000<br /><b>Certification Exam fee: USD 550 for all participants </b></td>
+                                <td>Registered ICT Professionals: TZS 2,200,000 <br /> Non Registered and other participants TZS 2,500,000</td>
                                 <td>X</td>
                             </tr>
                             <tr>
-                                <td scope="row">8</td>
-                                <td>Cisco Certified Network Professional (CCNP)</td>
-                                <td>11<sup>th</sup> - 22<sup>nd</sup> July 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 1,700,000 <br /> Non Registered and other participants TZS 1,850,000</td>
-                                <td>XX</td>
+                                <td scope="row">3</td>
+                                <td>Big Data Analysis for Corporate Management and Business development</td>
+                                <td>10<sup>th</sup> - 15<sup>th</sup> July 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td>
+                                <td>X</td>
                             </tr>
                         </tbody>
                     </table>
