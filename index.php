@@ -335,7 +335,7 @@
             </div>
             <div style="background-color:white" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="moduletablenewsslider">
-					<h3 style="text-align:center;padding:10px;color:rgb(103, 121, 5)">Latest News <img src="siteimg/new.gif" height="50px" width="50px" /></h3>
+					<h3 style="text-align:center;padding:10px;color:rgb(103, 121, 5)"><img src="siteimg/latest.gif" height="50px" width="auto" /></h3>
 					<div id="btcontentslider209" style="display:block;width:auto" class="bt-cs bt-csnewsslider">
 			            <div class="slides_container" style="width:auto;">
 			                <div class="slide" style="width:auto;">
