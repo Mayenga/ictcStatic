@@ -130,7 +130,17 @@
     text-decoration: none;
     cursor: pointer;
     }
-
+    .newlast{
+        animation:blinking 1.5s infinite;
+        font-size: 20px;   
+    }
+    @keyframes blinking{
+        0%{   color: red;   }
+        47%{   color: #000; }
+        62%{   color: transparent; }
+        97%{   color:transparent; }
+        100%{  color: #000;   }
+    }
   </style>
 
 </head>
@@ -343,11 +353,11 @@
 				                    <div class="bt-inner">
 									    <a target="_parent" href="#" class="bt-image-link" title="Balozi wa Netherlands Nchini Tanzania">
 					                    <!-- <img class="hovereffect"  src="siteimg/news/balozOfNethelands.jpg" alt="Ambassador of Netherlands"  style="width:65px; float:left;margin-right:5px" title="Balozi wa Netherlands Nchini Tanzania akizungumza na watumishi wa Tume ya TEHAMa..." /></a>  -->
-								        <a style="color:blue" class="bt-title" target="_parent" title="ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia" href="pages/more/estonia.php">Chairman of the board and Director General of the ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia.... </a><br />
+								        <a style="color:blue" class="newlast" class="bt-title" target="_parent" title="ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia" href="pages/more/estonia.php">Chairman of the board and Director General of the ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia.... </a><br />
                                         May 9, 2022
                                         <br />
                                         <hr class="rounded" style="">
-                                        <a style="color:black" class="bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
+                                        <a style="color:black" class="newlast bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
                                         April 28, 2022
                                         <br />
                                         <hr class="rounded" style="">
