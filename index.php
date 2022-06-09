@@ -351,18 +351,22 @@
 			                <div class="slide" style="width:auto;">
 					            <div class="bt-row bt-row-first"  style="width:100%;margin-bottom:5px" >
 				                    <div class="bt-inner">
+								        <a target="blank" style="color:blue" class="newlast" class="bt-title" target="_parent" title="TAIC 2022" href="https://taic.ictc.go.tz/">The Tanzania Annual ICT Conference 2022 is to be held in Zanzibar Tanzania....</a><br />
+                                        Oct 26, 2022
+                                        <br />
+                                        <hr class="rounded" style="">
 									    <a target="_parent" href="#" class="bt-image-link" title="Balozi wa Netherlands Nchini Tanzania">
 					                    <!-- <img class="hovereffect"  src="siteimg/news/balozOfNethelands.jpg" alt="Ambassador of Netherlands"  style="width:65px; float:left;margin-right:5px" title="Balozi wa Netherlands Nchini Tanzania akizungumza na watumishi wa Tume ya TEHAMa..." /></a>  -->
 								        <a style="color:blue" class="newlast" class="bt-title" target="_parent" title="ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia" href="pages/more/estonia.php">Chairman of the board and Director General of the ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia.... </a><br />
                                         May 9, 2022
                                         <br />
                                         <hr class="rounded" style="">
-                                        <a style="color:black" class="newlast bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
+                                        <a style="color:black" class="bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
                                         April 28, 2022
                                         <br />
-                                        <hr class="rounded" style="">
+                                        <!-- <hr class="rounded" style="">
                                         <a style="color:black" class="bt-title" target="_parent" title="Balozi wa Netherlands nchini Tanzania" href="pages/more/ziara.php">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara....</a><br />
-                                        April 14, 2022
+                                        April 14, 2022 -->
                                         <br />
                                         <hr class="rounded" style="">
                                         <a style="color:blue" class="bt-title" target="_parent" title="more stories" href="./pages/news.php">Read more stories.... </a>

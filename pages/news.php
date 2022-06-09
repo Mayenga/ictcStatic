@@ -163,56 +163,7 @@
         <!-- <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a> -->
         <nav id="navbar" class="navbar">
             <ul>
-            <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
-            <li class="dropdown"><a class="nav-link scrollto" href="#about"><span>ABOUT US</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                <li><a href="#about">Vision</a></li>
-                <li><a href="#about">Mission</a></li>
-                <li><a href="#about">Board Members</a></li>
-                <li><a href="#about">Management</a></li>
-                </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>ICT INVESTMENT</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                <li><a href="#">Startup Companies</a></li>
-                <li><a href="#">Digital Incubatots</a></li>
-                <li><a href="#">Digital Accelerators</a></li>
-                </ul>
-            </li>
-            <li class="dropdown"><a href="#professional"><span>ICT PROFESSIONAL</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                <li><a href="#professional">About</a></li>
-                <li><a href="https://iprs.ictc.go.tz/index.php/login" target="blank">Registration</a></li>
-                <li><a href="#professional">Trainings</a></li>
-                <li><a href="#professional">Fees</a></li>
-                </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="https://softcenter.ictc.go.tz/" target="blank">SOFTCENTER</a></li>
-            <li class="dropdown"><a href="#"><span>ICT RESEARCH</span> <i class="bi bi-chevron-right"></i></a>
-                <!-- <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Guids</a></li>
-                <li><a href="#">Pertners</a></li>
-                <li><a href="#">Proposal And Application</a></li>
-                <li><a href="#">Evaluation</a></li>
-                <li><a href="#">FAQs</a></li>
-                </ul> -->
-            </li>
-            <li class="dropdown"><a href="#"><span>PARTNERS</span><i class="bi bi-chevron-down"></i></a>
-                <ul>  
-                    <li><a target="blank" href="https://www.uncdf.org/">UNCDF</a></li>
-                    <li><a target="blank" href="https://www.dotrust.org/">DOT</a></li>
-                    <li><a target="blank" href="https://teknolojia.co.tz/">TEKNOKONA</a></li>
-                </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>ICT EVENTS</span><i class="bi bi-chevron-down"></i></a>
-                <ul>  
-                <li><a target="blank" href="https://taic.ictc.go.tz/">TAIC2022</a></li>
-                <!-- <li><a target="blank" href="https://www.youthdigitalsummit.org/">Tanzania Youth Digital Summit (TYDS2020)</a></li> -->
-                </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#portfolio">GALLERY</a></li>
-            <li><a class="nav-link scrollto" href="#contact">CONTACTS</a></li>
+                <li><a class="nav-link scrollto active" href="https://www.ictc.go.tz">HOME</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
