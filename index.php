@@ -264,20 +264,6 @@
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Welcome</a>
         </div>
       </div> -->
-    <!-- news modals starts -->
-    <!-- The Modal -->
-    <div id="myModal" class="modal col-12 col-sm-6 col-md-4 col-lg-6 col-xl-6">
-        <!-- Modal content -->
-        <div class="modal-content" >
-            <span class="close">&times;</span>
-            <h2 style="text-align:center;color:black">ZIARA YA BAROZI WA NETHERLANDS NCHINI TANZANIA KATIKA MAKAO MAKUU YA TUME YA TEHAMA.</h2>
-            <img src="siteimg/news/baloziNetherlands/1.jpg" width: 100%; height: auto;/>
-            <br>
-            <br>
-            <p style="text-align:justfy;color:black">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara katika Makao Makuu ya Tume ya TEHAMA Jijini Dsm, lengo ni kuongeza wigo katika Sekta ya Uwekezaji wa TEHAMA kati ya Tanzania na Netherlands.</p>
-        </div>
-    </div>
-    <!-- news modals ends -->
       <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
       </a> -->
@@ -719,7 +705,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">3</td>
-                                <td>Big Data Analysis for Corporate Management and Business development</td>
+                                <td>Big Data Analytics for Corporate Management and Business development</td>
                                 <td>10<sup>th</sup> - 15<sup>th</sup> July 2022, Dar es Salaam</td>
                                 <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td>
                                 <td>X</td>
