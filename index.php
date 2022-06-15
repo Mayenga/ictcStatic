@@ -264,20 +264,6 @@
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Welcome</a>
         </div>
       </div> -->
-    <!-- news modals starts -->
-    <!-- The Modal -->
-    <div id="myModal" class="modal col-12 col-sm-6 col-md-4 col-lg-6 col-xl-6">
-        <!-- Modal content -->
-        <div class="modal-content" >
-            <span class="close">&times;</span>
-            <h2 style="text-align:center;color:black">ZIARA YA BAROZI WA NETHERLANDS NCHINI TANZANIA KATIKA MAKAO MAKUU YA TUME YA TEHAMA.</h2>
-            <img src="siteimg/news/baloziNetherlands/1.jpg" width: 100%; height: auto;/>
-            <br>
-            <br>
-            <p style="text-align:justfy;color:black">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara katika Makao Makuu ya Tume ya TEHAMA Jijini Dsm, lengo ni kuongeza wigo katika Sekta ya Uwekezaji wa TEHAMA kati ya Tanzania na Netherlands.</p>
-        </div>
-    </div>
-    <!-- news modals ends -->
       <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
       </a> -->
@@ -351,22 +337,18 @@
 			                <div class="slide" style="width:auto;">
 					            <div class="bt-row bt-row-first"  style="width:100%;margin-bottom:5px" >
 				                    <div class="bt-inner">
-								        <a target="blank" style="color:blue" class="newlast" class="bt-title" target="_parent" title="TAIC 2022" href="https://taic.ictc.go.tz/">The Tanzania Annual ICT Conference 2022 is to be held in Zanzibar Tanzania....</a><br />
-                                        Oct 26, 2022
-                                        <br />
-                                        <hr class="rounded" style="">
 									    <a target="_parent" href="#" class="bt-image-link" title="Balozi wa Netherlands Nchini Tanzania">
 					                    <!-- <img class="hovereffect"  src="siteimg/news/balozOfNethelands.jpg" alt="Ambassador of Netherlands"  style="width:65px; float:left;margin-right:5px" title="Balozi wa Netherlands Nchini Tanzania akizungumza na watumishi wa Tume ya TEHAMa..." /></a>  -->
 								        <a style="color:blue" class="newlast" class="bt-title" target="_parent" title="ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia" href="pages/more/estonia.php">Chairman of the board and Director General of the ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia.... </a><br />
                                         May 9, 2022
                                         <br />
                                         <hr class="rounded" style="">
-                                        <a style="color:black" class="bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
+                                        <a style="color:black" class="newlast bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
                                         April 28, 2022
                                         <br />
-                                        <!-- <hr class="rounded" style="">
+                                        <hr class="rounded" style="">
                                         <a style="color:black" class="bt-title" target="_parent" title="Balozi wa Netherlands nchini Tanzania" href="pages/more/ziara.php">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara....</a><br />
-                                        April 14, 2022 -->
+                                        April 14, 2022
                                         <br />
                                         <hr class="rounded" style="">
                                         <a style="color:blue" class="bt-title" target="_parent" title="more stories" href="./pages/news.php">Read more stories.... </a>
@@ -723,7 +705,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">3</td>
-                                <td>Big Data Analysis for Corporate Management and Business development</td>
+                                <td>Big Data Analytics for Corporate Management and Business development</td>
                                 <td>10<sup>th</sup> - 15<sup>th</sup> July 2022, Dar es Salaam</td>
                                 <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td>
                                 <td>X</td>
