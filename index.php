@@ -229,6 +229,9 @@
         </nav><!-- .navbar -->
 
         </div>
+        <div style="position: fixed;bottom: 10%;right: 0;width: 300px;text-align:center">
+            <img src="siteimg/SENSA.png" class="img-fluid animated" alt="" style="max-height:150px;max-width:150px;width:100%;height:auto">
+        </div>
     </header>
     <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
@@ -264,6 +267,20 @@
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Welcome</a>
         </div>
       </div> -->
+    <!-- news modals starts -->
+    <!-- The Modal -->
+    <div id="myModal" class="modal col-12 col-sm-6 col-md-4 col-lg-6 col-xl-6">
+        <!-- Modal content -->
+        <div class="modal-content" >
+            <span class="close">&times;</span>
+            <h2 style="text-align:center;color:black">ZIARA YA BAROZI WA NETHERLANDS NCHINI TANZANIA KATIKA MAKAO MAKUU YA TUME YA TEHAMA.</h2>
+            <img src="siteimg/news/baloziNetherlands/1.jpg" width: 100%; height: auto;/>
+            <br>
+            <br>
+            <p style="text-align:justfy;color:black">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara katika Makao Makuu ya Tume ya TEHAMA Jijini Dsm, lengo ni kuongeza wigo katika Sekta ya Uwekezaji wa TEHAMA kati ya Tanzania na Netherlands.</p>
+        </div>
+    </div>
+    <!-- news modals ends -->
       <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
       </a> -->
@@ -303,10 +320,6 @@
 
 <!-- </section> -->
 <!-- End Hero -->
-    
-    <div style="position: fixed;bottom: 10%;right: 0;width: 300px;text-align:center">
-        <img src="siteimg/SENSA.png" class="img-fluid animated" alt="" style="max-height:150    px;max-width:150px;width:100%;height:auto">
-    </div>
 
     <div class="container-fluid">
         <div class="row">
@@ -318,8 +331,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="padding:20px; background-color:rgba(209, 183, 38, 0.205)">
-                <h4 style="text-align:center; font-size:bold;color:rgb(103, 121, 5);font-weight:bold;font-size:25px"><a href="" hreflang="en" class="dg-conner"> Welcome to the ICT Commission!</a></h4>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" style="padding:20px; background-color:white">
+                <h4 style="text-align:center; font-size:bold;font-weight:bold;font-size:25px"><a href="" style="color:black;" hreflang="en" class="dg-conner"> Welcome to the ICT Commission!</a></h4>
                 <p style="text-align: justify;padding:10px;">The Information and Communication Technologies Commission (ICTC) is an ICT
                                     promotion body established by the Presidential Decree Government Notice (GN)
                                     No.532 published in the Government Gazette No. 4 Vol. 96 of  <span id="dots2">...</span><span id="more2">November 2015.
@@ -327,7 +340,7 @@
                                     foster investment and development of ICT industry, advise and collaborate with
                                     other stakeholders on ICT research and foresight on ICT trends, and building
                                     capacity of ICT Professionals in Tanzania.
-                                    </span><button onclick="myFunction2()" id="myBtn2" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read more</button></p>             
+                                    </span><button onclick="myFunction2()" id="myBtn2" class="read-more2 w3-btn w3-white w3-border w3-border-red w3-round-large">Read more</button></p> 
             </div>
             <div style="background-color:white" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="moduletablenewsslider">
@@ -337,18 +350,22 @@
 			                <div class="slide" style="width:auto;">
 					            <div class="bt-row bt-row-first"  style="width:100%;margin-bottom:5px" >
 				                    <div class="bt-inner">
+								        <a target="blank" style="color:blue" class="newlast" class="bt-title" target="_parent" title="TAIC 2022" href="https://taic.ictc.go.tz/">The Tanzania Annual ICT Conference 2022 is to be held in Zanzibar Tanzania....</a><br />
+                                        Oct 26, 2022
+                                        <br />
+                                        <hr class="rounded" style="">
 									    <a target="_parent" href="#" class="bt-image-link" title="Balozi wa Netherlands Nchini Tanzania">
 					                    <!-- <img class="hovereffect"  src="siteimg/news/balozOfNethelands.jpg" alt="Ambassador of Netherlands"  style="width:65px; float:left;margin-right:5px" title="Balozi wa Netherlands Nchini Tanzania akizungumza na watumishi wa Tume ya TEHAMa..." /></a>  -->
 								        <a style="color:blue" class="newlast" class="bt-title" target="_parent" title="ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia" href="pages/more/estonia.php">Chairman of the board and Director General of the ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia.... </a><br />
                                         May 9, 2022
                                         <br />
                                         <hr class="rounded" style="">
-                                        <a style="color:black" class="newlast bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
+                                        <a style="color:black" class="bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
                                         April 28, 2022
                                         <br />
-                                        <hr class="rounded" style="">
+                                        <!-- <hr class="rounded" style="">
                                         <a style="color:black" class="bt-title" target="_parent" title="Balozi wa Netherlands nchini Tanzania" href="pages/more/ziara.php">Balozi wa Netherlands Nchini Tanzania Balozi Wiebe de Boer akizungumza na Watumishi wa Tume ya TEHAMA (ICT Commission) alipofanya ziara....</a><br />
-                                        April 14, 2022
+                                        April 14, 2022 -->
                                         <br />
                                         <hr class="rounded" style="">
                                         <a style="color:blue" class="bt-title" target="_parent" title="more stories" href="./pages/news.php">Read more stories.... </a>
@@ -708,6 +725,13 @@
                                 <td>Big Data Analytics for Corporate Management and Business development</td>
                                 <td>10<sup>th</sup> - 15<sup>th</sup> July 2022, Dar es Salaam</td>
                                 <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">4</td>
+                                <td>Certified Cyber Security Specialist</td>
+                                <td>08<sup>th</sup> - 12<sup>th</sup> August 2022</td>
+                                <td>Registered ICT Professionals: TZS 1,500,000 <br /> Non Registered and other participants TZS 1,700,000</td>
                                 <td>X</td>
                             </tr>
                         </tbody>
