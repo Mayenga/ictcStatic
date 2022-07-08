@@ -360,7 +360,7 @@
                                         May 9, 2022
                                         <br />
                                         <hr class="rounded" style="">
-                                        <a style="color:black" class="bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa wizara ya  habari mawasiliano na technologia ya habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
+                                        <a style="color:black" class="bt-title" target="_parent" title="Kilele cha maadhimisho ya uhuru wa Habari Duniani" href="pages/more/uhuruHabari.php">Waziri wa Habari, mawasiliano na Teknolojia ya Habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya uhuru wa habari Duniani....</a><br />
                                         April 28, 2022
                                         <br />
                                         <!-- <hr class="rounded" style="">
@@ -706,7 +706,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <!-- <tr>
                                 <td scope="row">1</td>
                                 <td>Data Analysis for Business Management and Governance</td>
                                 <td>13<sup>th</sup> - 17<sup>th</sup> June 2022, Dar es Salaam</td>
@@ -719,18 +719,18 @@
                                 <td>20<sup>th</sup> - 24<sup>th</sup> June 2022, Dar es Salaam</td>
                                 <td>Registered ICT Professionals: TZS 2,200,000 <br /> Non Registered and other participants TZS 2,500,000</td>
                                 <td>X</td>
-                            </tr>
+                            </tr> -->
                             <tr>
-                                <td scope="row">3</td>
-                                <td>Big Data Analytics for Corporate Management and Business development</td>
-                                <td>10<sup>th</sup> - 15<sup>th</sup> July 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td>
+                                <td scope="row">1</td>
+                                <td>Big Data Analytics for Corporate Management and Business Management</td>
+                                <td>25<sup>th</sup> - 29<sup>th</sup> July 2022, Dar es Salaam</td>
+                                <td>Registered ICT Professionals: TZS 1,200,000 <br /> Non Registered and other participants TZS 1,400,000</td>
                                 <td>X</td>
                             </tr>
                             <tr>
-                                <td scope="row">4</td>
+                                <td scope="row">2</td>
                                 <td>Certified Cyber Security Specialist</td>
-                                <td>08<sup>th</sup> - 12<sup>th</sup> August 2022</td>
+                                <td>15<sup>th</sup> - 19<sup>th</sup> August 2022</td>
                                 <td>Registered ICT Professionals: TZS 1,500,000 <br /> Non Registered and other participants TZS 1,700,000</td>
                                 <td>X</td>
                             </tr>
