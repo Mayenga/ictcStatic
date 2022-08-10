@@ -684,30 +684,44 @@
                                 <th scope="col">No</th>
                                 <th scope="col">Course Name</th>
                                 <th scope="col">Course Dates</th>
-                                <th scope="col">Training Costs</th>
+                                <!-- <th scope="col">Training Costs</th> -->
                                 <th scope="col">Package</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td scope="row">1</td>
-                                <td>Data Analysis for Business Management and Governance</td>
-                                <td>13<sup>th</sup> - 17<sup>th</sup> June 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 900,000 <br /> Non Registered and other participants TZS 950,000</td>
+                                <td>Administration of Open Source Technology Databases</td>
+                                <td>22<sup>nd</sup> - 26<sup>th</sup> August 2022, Dar es Salaam</td>
+                                <!-- <td>Registered ICT Professionals: TZS 900,000 <br /> Non Registered and other participants TZS 950,000</td> -->
                                 <td>X</td>
                             </tr>
                             <tr>
                                 <td scope="row">2</td>
-                                <td>Certified Ethical Hacker (CEH)</td>
-                                <td>20<sup>th</sup> - 24<sup>th</sup> June 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 2,200,000 <br /> Non Registered and other participants TZS 2,500,000</td>
+                                <td>Data Analysis for Business Management and Governance</td>
+                                <td>29<sup>th</sup> - 02<sup>th</sup> September 2022, Morogoro</td>
+                                <!-- <td>Registered ICT Professionals: TZS 2,200,000 <br /> Non Registered and other participants TZS 2,500,000</td> -->
                                 <td>X</td>
                             </tr>
                             <tr>
                                 <td scope="row">3</td>
-                                <td>Big Data Analytics for Corporate Management and Business development</td>
-                                <td>10<sup>th</sup> - 15<sup>th</sup> July 2022, Dar es Salaam</td>
-                                <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td>
+                                <td>Cyber Security Specialist Training</td>
+                                <td>05<sup>th</sup> - 09<sup>th</sup> September 2022, Dar es Salaam</td>
+                                <!-- <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td> -->
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">4</td>
+                                <td>Network Security Domain</td>
+                                <td>12<sup>th</sup> - 16<sup>th</sup> September 2022, Dar es Salaam</td>
+                                <!-- <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td> -->
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">5</td>
+                                <td>Certified Business Analysis Professional</td>
+                                <td>26<sup>th</sup> - 30<sup>th</sup> September 2022, Dar es Salaam</td>
+                                <!-- <td>Registered ICT Professionals: TZS 1,000,000 <br /> Non Registered and other participants TZS 1,200,000</td> -->
                                 <td>X</td>
                             </tr>
                         </tbody>
