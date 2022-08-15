@@ -701,7 +701,7 @@
                                 <th scope="col">Course Name</th>
                                 <th scope="col">Course Dates</th>
                                 <!-- <th scope="col">Training Costs</th> -->
-                                <th scope="col">Package</th>
+                                <!-- <th scope="col">Package</th> -->
                             </tr>
                         </thead>
                         <tbody>
@@ -710,44 +710,44 @@
                                 <td>Administration of Open Source Technology Databases</td>
                                 <td>22<sup>nd</sup> - 26<sup>th</sup> August 2022, Dar es Salaam</td>
                                 <!-- <td>Registered ICT Professionals: TZS 900,000 <br /> Non Registered and other participants TZS 950,000</td> -->
-                                <td>X</td>
+                                <!-- <td>X</td> -->
                             </tr>
                             <tr>
                                 <td scope="row">2</td>
                                 <td>Data Analysis for Business Management and Governance</td>
                                 <td>29<sup>th</sup> - 02<sup>nd</sup> September 2022, Morogoro</td>
                                 <!-- <td>Registered ICT Professionals: TZS 2,200,000 <br /> Non Registered and other participants TZS 2,500,000</td> -->
-                                <td>X</td>
+                                <!-- <td>X</td> -->
                             </tr>
                             <tr>
                                 <td scope="row">3</td>
                                 <td>Cyber Security Specialist Training</td>
                                 <td>05<sup>th</sup> - 09<sup>th</sup> September 2022, Dar es Salaam</td>
                                 <!-- <td>Registered ICT Professionals: TZS 1,200,000 <br /> Non Registered and other participants TZS 1,400,000</td> -->
-                                <td>X</td>
+                                <!-- <td>X</td> -->
                             </tr>
                             <tr>
                                 <td scope="row">4</td>
                                 <td>Network Security Domain</td>
                                 <td>12<sup>th</sup> - 16<sup>th</sup> September 2022, Dar es Salaam</td>
                                 <!-- <td>Registered ICT Professionals: TZS 1,500,000 <br /> Non Registered and other participants TZS 1,700,000</td> -->
-                                <td>X</td>
+                                <!-- <td>X</td> -->
                             </tr>
                             <tr>
                                 <td scope="row">5</td>
                                 <td>Certified Business Analysis Professional</td>
                                 <td>26<sup>th</sup> - 30<sup>th</sup> September 2022, Dar es Salaam</td>
                                 <!-- <td>Registered ICT Professionals: TZS 1,500,000 <br /> Non Registered and other participants TZS 1,700,000</td> -->
-                                <td>X</td>
+                                <!-- <td>X</td> -->
                             </tr>
                         </tbody>
                     </table>
                     <p>
-                    <h6>Description:</h6>
-                    <ol>
+                    <!-- <h6>Description:</h6> -->
+                    <!-- <ol>
                     <li><b>Package XX - </b> The training covers training fee, refreshments (breckfast and lunch) during training period, training materials and certification exams costs.</li>
                     <li><b>Package X - </b> The training covers training fee, refreshments (breckfast and lunch) during training period, training materials.</li>
-                    </ol>
+                    </ol> -->
                     </p>
                     <h5>FOR INQUIRIES PLEASE CONTACT US ON  info@ictc.go.tz</h5>
                 </div>
