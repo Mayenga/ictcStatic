@@ -185,8 +185,8 @@
                     <div class="col-xm-12 col-sm-12 col-lg-9 col-12 justify-content-center">
                         <div class="card" style="width: 100%;">
                             <div style="margin:10px">
-                                <h3>Kilele cha maadhimisho ya uhuru wa habari Duniani</h3>
-                                <span style="color:blue">April 28, 2022</span>
+                                <h3>Registeration is Now Open for the Connected African Girls Hybrid Coding Camp (6th Edition)</h3>
+                                <span style="color:blue">August 29, 2022</span>
                             </div>
                             <a href="https://us06web.zoom.us/webinar/register/WN_mo1XB_qpS-GzfW5FS6k3pw" target="blank"><img class="card-img-top" height="100%" width="auto" src="../../siteimg/news/codeCamp/1.jpg" alt="Connected African Girls Hybrid Coding Camp"></a>
                             <div class="card-body">
