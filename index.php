@@ -349,8 +349,12 @@
 			                <div class="slide" style="width:auto;">
 					            <div class="bt-row bt-row-first"  style="width:100%;margin-bottom:5px" >
 				                    <div class="bt-inner">
-								        <a target="blank" style="color:blue" class="newlast" class="bt-title" target="_parent" title="TAIC 2022" href="https://taic.ictc.go.tz/">The Tanzania Annual ICT Conference 2022 is to be held in Zanzibar Tanzania....</a><br />
+                                        <a target="blank" style="color:blue" class="newlast" class="bt-title" target="_parent" title="TAIC 2022" href="https://taic.ictc.go.tz/">The Tanzania Annual ICT Conference 2022 is to be held in Zanzibar Tanzania....</a><br />
                                         Oct 26, 2022
+                                        <br />
+                                        <hr class="rounded" style="">
+                                        <a target="blank" style="color:blue" class="newlast" class="bt-title" target="_parent" title="Connected African Girls Hybrid Coding Camp" href="pages/more/codingCamp.php">Registeration is Now Open for the Connected African Girls Hybrid Coding Camp (6th Edition).....</a><br />
+                                        August 29, 2022
                                         <br />
                                         <hr class="rounded" style="">
 									    <a target="_parent" href="#" class="bt-image-link" title="Balozi wa Netherlands Nchini Tanzania">

@@ -9,29 +9,29 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="../siteimg/fevicon.png" rel="icon">
+  <link href="../../siteimg/fevicon.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../sitevendor/aos/aos.css" rel="stylesheet">
-  <link href="../sitevendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../sitevendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../sitevendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="../sitevendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="../sitevendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../../sitevendor/aos/aos.css" rel="stylesheet">
+  <link href="../../sitevendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../sitevendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../sitevendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../../sitevendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../../sitevendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="../sitecss/style.css" rel="stylesheet">
+  <link href="../../sitecss/style.css" rel="stylesheet">
 
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- code pen -->
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../../style.css">
   <style>
     #more {display: none;}
     #more2 {display: none;}
@@ -140,7 +140,7 @@
     <div class="row" style="padding:5px">
         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-left my-auto" style="align-self: center;text-align: center;">
             <a href="https://www.ictc.go.tz">
-                <img id="ngao" src="../siteimg/fevicon.png" alt="Tanzania emblem" class="mx-auto img-fluid"></a>
+                <img id="ngao" src="../../siteimg/fevicon.png" alt="Tanzania emblem" class="mx-auto img-fluid"></a>
         </div>
         <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-center text-xs-center px-xs-0 mx-auto my-auto">
             <h4 class="mb-1 title align-items-center" style="font-size:1.5vw;color:black;font-weight:bold;">
@@ -151,7 +151,7 @@
             </h1>
         </div>
         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-right my-auto"style="align-self: center;text-align: center;">
-            <a href="https://www.ictc.go.tz"><img src="../siteimg/LOGO-02.png"  alt="" class="mx-auto img-fluid"></a>
+            <a href="https://www.ictc.go.tz"><img src="../../siteimg/LOGO-02.png"  alt="" class="mx-auto img-fluid"></a>
             <!-- style="max-width:100px;height:170px;width: 100%;height: auto;" -->
         </div>
     </div>
@@ -163,7 +163,8 @@
         <!-- <a href="/" class="logo"><img src="siteimg/LOGO-02.png" alt="ICTC LOGO" class="img-fluid"></a> -->
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="https://www.ictc.go.tz">HOME</a></li>
+            <li><a class="nav-link scrollto active" href="../../">HOME</a></li>
+            <li><a class="nav-link scrollto" href="../news.php">NEWS</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -181,47 +182,17 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xm-12 col-sm-12 col-lg-4 col-12 justify-content-center" style="margin-bottom:5px">
+                    <div class="col-xm-12 col-sm-12 col-lg-9 col-12 justify-content-center">
                         <div class="card" style="width: 100%;">
-                            <a href="https://us06web.zoom.us/webinar/register/WN_mo1XB_qpS-GzfW5FS6k3pw" target="blank"><img class="card-img-top" height="100%" width="auto" src="../siteimg/news/codeCamp/1.jpg" alt="Connected African Girls Hybrid Coding Camp"></a>
-                            <div class="card-body">
-                                August 29, 2022
-                                <h5 class="card-title">Registeration is Now Open for the Connected African Girls Hybrid Coding Camp (6th Edition)</h5>
-                                <p class="card-text">The Economic Commission for Africa (ECA) in collaboration with the Government of the United Republic of Tanzania through the ICT Commission, Tanzania Institute of Education, and Omuka Hub are hosting the 6th Connected African Girls hybrid coding camp from *29 August - 4 September 2022* in Dar es Salaam</p>
-                                <a href="more/codingCamp.php" class="btn btn-primary">Read more</a>
+                            <div style="margin:10px">
+                                <h3>Kilele cha maadhimisho ya uhuru wa habari Duniani</h3>
+                                <span style="color:blue">April 28, 2022</span>
                             </div>
-                        </div>
-                    </div>    
-                    <div class="col-xm-12 col-sm-12 col-lg-4 col-12 justify-content-center">
-                        <div class="card" style="width: 100%;">
-                            <img class="card-img-top" height="100%" width="auto" src="../siteimg/news/estonia/3.jpeg" alt="Ambassador of Netherlands">
+                            <a href="https://us06web.zoom.us/webinar/register/WN_mo1XB_qpS-GzfW5FS6k3pw" target="blank"><img class="card-img-top" height="100%" width="auto" src="../../siteimg/news/codeCamp/1.jpg" alt="Connected African Girls Hybrid Coding Camp"></a>
                             <div class="card-body">
-                                May 9, 2022
-                                <h5 class="card-title">Director General of the ICT Commission had a meeting with EU delegate</h5>
-                                <p class="card-text">Chairman of the board and Director General of the ICT Commission had a meeting with EU delegate at the sidelines of the conference in Tallinn Estonia.</p>
-                                <a href="more/estonia.php" class="btn btn-primary">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xm-12 col-sm-12 col-lg-4 col-12 justify-content-center">
-                        <div class="card" style="width: 100%;">
-                            <img class="card-img-top" height="100%" width="auto" src="../siteimg/news/uhuruHabari/2.jpeg" alt="Ambassador of Netherlands">
-                            <div class="card-body">
-                                April 28, 2022
-                                <h5 class="card-title">Kilele cha maadhimisho ya uhuru wa habari Duniani</h5>
-                                <p class="card-text">Waziri wa Wizara ya Habari Mawasiliano na Teknolojia ya Habari alipotembelea banda la Tume ya TEHAMA kwenye kilele cha maadhimisho ya siku ya Uhuru wa Habari Duniani....</p>
-                                <a href="more/uhuruHabari.php" class="btn btn-primary">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xm-12 col-sm-12 col-lg-4 col-12 justify-content-center">
-                        <div class="card" style="width: 100%;">
-                            <img class="card-img-top" height="100%" width="auto" src="../siteimg/news/baloziNetherlands/2.jpg" alt="Ambassador of Netherlands">
-                            <div class="card-body">
-                                April 14, 2022
-                                <h5 class="card-title">Ziara Balozi wa Netherlands Nchini Tanzania</h5>
-                                <p class="card-text">Picha ya pamoja Balozi wa Nethrlans Nchini Tanzania Bw. Wiebe de Boer akiwa na Mkurugenzi Mkuu wa Tume ta TEHAMA Nchini Dr. Mkundwe Moses Mwasaga alipofanya ziara katika Makao Makuu ya Tume ya TEHAMA Jijini Dar Es Salaam, lengo ni kuongeza wigo katika Sekta ya Uwekezaji wa TEHAMA....</p>
-                                <a href="more/ziara.php" class="btn btn-primary">Read more</a>
+                                <h5 class="card-title"></h5>
+                                <p class="card-text">The Economic Commission for Africa (ECA) in collaboration with the Government of the United Republic of Tanzania through the ICT Commission, Tanzania Institute of Education, and Omuka Hub are hosting the 6th Connected African Girls hybrid coding camp from *29 August - 4 September 2022* in Dar es Salaam, Tanzania. The coding camp brings together more than 100 girls from Tanzania and thousands of virtual participants from across the continent for a week-long ICT skills development training, with the aim of bridging the digital gender divide and advancing ICT skills for young women and girls between 12 - 25 years of age.<br />
+                                <a href="https://us06web.zoom.us/webinar/register/WN_mo1XB_qpS-GzfW5FS6k3pw" target="blank">*Register & Join*</a>:</p>
                             </div>
                         </div>
                     </div>
@@ -305,15 +276,15 @@
 
   <!-- Vendor JS Files -->
   <script src="../sitevendor/purecounter/purecounter.js"></script>
-  <script src="../sitevendor/aos/aos.js"></script>
-  <script src="../sitevendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../sitevendor/glightbox/js/glightbox.min.js"></script>
-  <script src="../sitevendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="../sitevendor/swiper/swiper-bundle.min.js"></script>
-  <script src="../sitevendor/php-email-form/validate.js"></script>
+  <script src="../../sitevendor/aos/aos.js"></script>
+  <script src="../../sitevendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../sitevendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../../sitevendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../../sitevendor/php-email-form/validate.js"></script>
+  <script src="../../sitevendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../sitejs/main.js"></script>
+  <script src="../../sitejs/main.js"></script>
 
   <script>
     function myFunction() {
